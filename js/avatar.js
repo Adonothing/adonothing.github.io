@@ -4,7 +4,7 @@ var newIndex = 0; // 下一张显示的图片索引号
 var images = [
   "https://picture.adunas.top/AdunasA-2023-01-13.jpg", 
   "https://picture.adunas.top/AdunasSmileB-2023-01-13.jpg", 
-  "https://picture.adunas.top/AdunasSmileC-2023-01-13.jpg"
+  "https://picture.adunas.top/AdunasSmileC-2023-01-13.png"
 ]; // 图片列表，根据实际情况修改，要求第一图像和配置文件_config.butterfly.yml里的相同。
 
 //------检索第一个容器--------//
