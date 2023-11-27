@@ -20,13 +20,14 @@ var images = [
 //   image.src = images[currentIndex]; // 更新图片路径
 // });
 
-//------检索所有容器，检测到鼠标双击后，同时切换所有地方的图片--------//
+//------检索所有容器，检测到鼠标点击后，同时切换所有地方的图片--------//
 var ContainerIndex = 0;
 var ContainerLength = document.getElementsByClassName("avatar-img").length;
 while(ContainerIndex !== ContainerLength){ //每个容器都要检查
 
   var imageContainer = document.getElementsByClassName("avatar-img")[ContainerIndex];
-  imageContainer.addEventListener("dblclick", function() { // 检查该容器是否被鼠标点击
+  imageContainer.addEventListener("click", function() { // 检查该容器是否被鼠标单击
+  // imageContainer.addEventListener("dblclick", function() { // 检查该容器是否被鼠标双击
 
     while (newIndex === currentIndex) { // 新的索引号不能等于旧的索引号
       newIndex = Math.floor(Math.random() * images.length); // 随机生成新的索引号
