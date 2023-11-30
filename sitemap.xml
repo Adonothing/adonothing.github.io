@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.adunas.top/game/index.html</loc>
+    <loc>https://www.adunas.top/posts/2023001a.html</loc>
+    
+    <lastmod>2023-11-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adunas.top/GameCode/index.html</loc>
     
     <lastmod>2023-11-30</lastmod>
     
@@ -20,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://www.adunas.top/social/fcircle/index.html</loc>
+    <loc>https://www.adunas.top/social/link/index.html</loc>
     
     <lastmod>2023-11-23</lastmod>
     
@@ -29,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://www.adunas.top/social/link/index.html</loc>
+    <loc>https://www.adunas.top/social/fcircle/index.html</loc>
     
     <lastmod>2023-11-23</lastmod>
     
@@ -47,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://www.adunas.top/life/music/index.html</loc>
+    <loc>https://www.adunas.top/life/movies/index.html</loc>
     
     <lastmod>2023-11-23</lastmod>
     
@@ -56,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://www.adunas.top/life/movies/index.html</loc>
+    <loc>https://www.adunas.top/life/music/index.html</loc>
     
     <lastmod>2023-11-23</lastmod>
     
@@ -92,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://www.adunas.top/personal/love/index.html</loc>
+    <loc>https://www.adunas.top/site/census/index.html</loc>
     
     <lastmod>2023-11-23</lastmod>
     
@@ -101,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://www.adunas.top/site/census/index.html</loc>
+    <loc>https://www.adunas.top/personal/love/index.html</loc>
     
     <lastmod>2023-11-23</lastmod>
     
