@@ -54,7 +54,7 @@ function tonav() {
     position = scroll;
   });
   //修复没有弄右键菜单的童鞋无法回顶部的问题
-  document.getElementById("page-name").innerText = document.title.split(" | Adunas🍉")[0];
+  document.getElementById("page-name").innerText = document.title.split(" | Adunas🍀")[0];
 }
 
 function scrollToTop() {
@@ -1119,7 +1119,7 @@ function createtime1() {
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到Adunas🍉の异世界!`,
+    `欢迎来到Adunas🍀の异世界!`,
     `Future is now 🍭🍭🍭`,
     `
         
@@ -1172,7 +1172,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by Adunas🍉 %c 你正在访问Adunas🍉の异世界",
+      "%c ⚡ Powered by Adunas🍀 %c 你正在访问Adunas🍀の异世界",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1282,8 +1282,8 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var subTitle = title.endsWith("| Adunas🍉") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('Adunas🍉の异世界分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    var subTitle = title.endsWith("| Adunas🍀") ? title.substring(0, title.length - 14) : title;
+    navigator.clipboard.writeText('Adunas🍀の异世界分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
     new Vue({
       data: function () {
         this.$notify({
