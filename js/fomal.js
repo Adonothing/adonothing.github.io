@@ -3176,7 +3176,7 @@ if (localStorage.getItem("blogbg") != undefined) {
   document.getElementById("defineBg").innerText = `:root{
     --default-bg: url(https://picture.adunas.top/yys/SSR-TianZhaoB-2732x2048.jpg);
     --darkmode-bg: url(https://picture.adunas.top/yys/SSR-YiXieNaMeiJ-2732x2048.jpg);
-    --mobileday-bg: url(https://picture.adunas.top/yys/SSR-TianZhaoB-2732x2048.jpg);
+    --mobileday-bg: url(https://picture.adunas.top/yys/SSR-TianZhaoB-1080x1920.jpg);
     --mobilenight-bg: url(https://picture.adunas.top/yys/SSR-YiXieNaMeiJ-1080x1920.jpg);
   }`;
 }
