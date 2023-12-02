@@ -7774,7 +7774,8 @@ input#pic-link {
 /* heo 加载动画 */
 .loading-img {
   /* background: url(https://picture.adunas.top/CatA-400-200.gif) */
-  background: url(/assets/loading2.gif)
+  /* background: url(/assets/loading2.gif) */
+  background: url(https://picture.adunas.top/AsitaA.jpg)
     no-repeat center center;
   background-size: cover;
 }
