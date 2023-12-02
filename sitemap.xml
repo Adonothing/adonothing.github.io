@@ -47,15 +47,6 @@
   </url>
   
   <url>
-    <loc>https://www.adunas.top/site/time/index.html</loc>
-    
-    <lastmod>2023-11-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.adunas.top/social/link/index.html</loc>
     
     <lastmod>2023-11-23</lastmod>
@@ -65,16 +56,7 @@
   </url>
   
   <url>
-    <loc>https://www.adunas.top/personal/love/index.html</loc>
-    
-    <lastmod>2023-11-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adunas.top/site/census/index.html</loc>
+    <loc>https://www.adunas.top/site/time/index.html</loc>
     
     <lastmod>2023-11-23</lastmod>
     
@@ -84,24 +66,6 @@
   
   <url>
     <loc>https://www.adunas.top/personal/about/index.html</loc>
-    
-    <lastmod>2023-11-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adunas.top/personal/bb/index.html</loc>
-    
-    <lastmod>2023-11-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.adunas.top/life/games/index.html</loc>
     
     <lastmod>2023-11-23</lastmod>
     
@@ -128,6 +92,42 @@
   </url>
   
   <url>
+    <loc>https://www.adunas.top/life/games/index.html</loc>
+    
+    <lastmod>2023-11-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adunas.top/personal/love/index.html</loc>
+    
+    <lastmod>2023-11-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adunas.top/site/census/index.html</loc>
+    
+    <lastmod>2023-11-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.adunas.top/personal/bb/index.html</loc>
+    
+    <lastmod>2023-11-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.adunas.top/categories/index.html</loc>
     
     <lastmod>2023-11-23</lastmod>
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://www.adunas.top/box/animation/index.html</loc>
+    <loc>https://www.adunas.top/box/gallery/index.html</loc>
     
     <lastmod>2023-11-23</lastmod>
     
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://www.adunas.top/box/gallery/index.html</loc>
+    <loc>https://www.adunas.top/box/animation/index.html</loc>
     
     <lastmod>2023-11-23</lastmod>
     
@@ -189,7 +189,7 @@
   </url>
   
   <url>
-    <loc>https://www.adunas.top/tags/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF/</loc>
+    <loc>https://www.adunas.top/tags/%E6%B8%B8%E6%88%8FID/</loc>
     <lastmod>2023-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
