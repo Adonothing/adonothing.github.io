@@ -213,9 +213,9 @@
     
     <category term="数学" scheme="https://www.adunas.top/tags/%E6%95%B0%E5%AD%A6/"/>
     
-    <category term="matlab" scheme="https://www.adunas.top/tags/matlab/"/>
-    
     <category term="卡尔曼滤波" scheme="https://www.adunas.top/tags/%E5%8D%A1%E5%B0%94%E6%9B%BC%E6%BB%A4%E6%B3%A2/"/>
+    
+    <category term="matlab" scheme="https://www.adunas.top/tags/matlab/"/>
     
   </entry>
   
@@ -259,9 +259,9 @@
     
     <category term="数学" scheme="https://www.adunas.top/tags/%E6%95%B0%E5%AD%A6/"/>
     
-    <category term="协方差" scheme="https://www.adunas.top/tags/%E5%8D%8F%E6%96%B9%E5%B7%AE/"/>
-    
     <category term="matlab" scheme="https://www.adunas.top/tags/matlab/"/>
+    
+    <category term="协方差" scheme="https://www.adunas.top/tags/%E5%8D%8F%E6%96%B9%E5%B7%AE/"/>
     
   </entry>
   
