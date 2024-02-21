@@ -6580,45 +6580,24 @@ blockquote.pullquote.right {
 }
 
 /* 字体引入 */
+/* 腾祥铚谦钢笔简 */
 @font-face {
-  font-family: YSHST;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/优设好身体.woff2);
+  font-family: TSZQGBJ;
+  src: url(https://picture.adunas.top/Font/腾祥铚谦钢笔简.ttf);
   font-display: swap;
 }
 
+/* 方正字迹-佩安硬笔简体 */
 @font-face {
-  font-family: MiSans;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/MiSans.woff2);
+  font-family: PAYBJ;
+  src: url(https://picture.adunas.top/Font/%E6%96%B9%E6%AD%A3%E5%AD%97%E8%BF%B9-%E4%BD%A9%E5%AE%89%E7%A1%AC%E7%AC%94%E7%AE%80%E4%BD%93.TTF);
   font-display: swap;
 }
 
-@font-face {
-  font-family: HYTMR;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/HYTangMeiRen55W.woff2);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: LXGW;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/霞鹜文楷.woff2);
-  font-display: swap;
-}
-
+/* 链接不存在是默认字体 */
 @font-face {
   font-family: TTQHB;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/甜甜圈海报字体.woff2);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Consolas_1;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/Consolas.woff2);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: ZhuZiAWan;
-  src: url(https://data-static.netdun.net/Fomalhaut/fonts/ZhuZiAWan2.woff2);
+  src: url(https://data-static.netdun.net/Fomalhaut/fonts/默认字体.woff2);
   font-display: swap;
 }
 
