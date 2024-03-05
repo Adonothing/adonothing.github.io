@@ -13,20 +13,20 @@ const ap3 = new APlayer({
     listMaxHeight: 1,
     lrcType: 3,
     audio: [
-        // 0001
-        {
-            name: 'audio',
-            artist: 'Adunas',
-            url: 'https://picture.adunas.top/Audio/English/audioAdunasA.mp3',
-            // cover: 'cover1.jpg',
-            //lrc: 'lrc1.lrc',
-            theme: '#ebd0c2'
-        },
         // 0002
         {
             name: 'approach',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/approachAdunasA.mp3',
+            // cover: 'cover1.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#ebd0c2'
+        },
+        // 0001
+        {
+            name: 'audio',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/audioAdunasA.mp3',
             // cover: 'cover1.jpg',
             //lrc: 'lrc1.lrc',
             theme: '#ebd0c2'
