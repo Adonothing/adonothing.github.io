@@ -18,7 +18,16 @@ const ap3 = new APlayer({
             name: 'audio',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/audioAdunasA.mp3',
-            cover: 'cover1.jpg',
+            // cover: 'cover1.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#ebd0c2'
+        },
+        // 0002
+        {
+            name: 'approach',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/approachAdunasA.mp3',
+            // cover: 'cover1.jpg',
             //lrc: 'lrc1.lrc',
             theme: '#ebd0c2'
         },
