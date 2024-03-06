@@ -67,6 +67,15 @@ const ap3 = new APlayer({
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
         },
+        // 0003
+        {
+            name: 'coordinate',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/coordinateAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
         // 0004
         {
             name: 'deduce',
@@ -162,6 +171,15 @@ const ap3 = new APlayer({
             name: 'onboard',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/onboardAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0007
+        {
+            name: 'pixel',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/pixelAdunasA.mp3',
             cover: 'cover2.jpg',
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
