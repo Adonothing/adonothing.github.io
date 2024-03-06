@@ -319,6 +319,15 @@ const ap3 = new APlayer({
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
         },
+        // 0009
+        {
+            name: 'rotate',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/rotateAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
         // 0010
         {
             name: 'route',
