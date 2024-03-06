@@ -141,6 +141,15 @@ const ap3 = new APlayer({
         },
         // 0006
         {
+            name: 'joint',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/jointAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0006
+        {
             name: 'lateral',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/lateralAdunasA.mp3',
