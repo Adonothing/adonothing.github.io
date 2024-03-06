@@ -33,6 +33,15 @@ const ap3 = new APlayer({
         },
         // 0002
         {
+            name: 'antagonistic',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/antagonisticAdunasA.mp3',
+            // cover: 'cover1.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#ebd0c2'
+        },
+        // 0002
+        {
             name: 'approach',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/approachAdunasA.mp3',
