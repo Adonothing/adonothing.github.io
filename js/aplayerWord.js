@@ -184,6 +184,15 @@ const ap3 = new APlayer({
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
         },
+        // 0011
+        {
+            name: 'subject',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/subjectAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
         // 0012
         {
             name: 'theoretical',
