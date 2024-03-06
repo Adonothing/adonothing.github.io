@@ -123,6 +123,15 @@ const ap3 = new APlayer({
         },
         // 0007
         {
+            name: 'motivate',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/motivateAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0007
+        {
             name: 'object',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/objectAdunasA.mp3',
