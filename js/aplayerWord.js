@@ -85,6 +85,15 @@ const ap3 = new APlayer({
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
         },
+        // 0003
+        {
+            name: 'curve',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/curveAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
         // 0004
         {
             name: 'deduce',
