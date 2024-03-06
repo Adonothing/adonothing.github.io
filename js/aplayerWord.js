@@ -177,6 +177,15 @@ const ap3 = new APlayer({
         },
         // 0008
         {
+            name: 'pursue',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/pursueAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0008
+        {
             name: 'pursuit',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/pursuitAdunasA.mp3',
