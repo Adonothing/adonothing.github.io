@@ -543,6 +543,15 @@ const ap3 = new APlayer({
             cover: 'cover2.jpg',
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
+        },
+        // 0013
+        {
+            name: 'velocity',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/velocityAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
         }
     ]
 });
