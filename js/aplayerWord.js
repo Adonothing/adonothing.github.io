@@ -213,6 +213,24 @@ const ap3 = new APlayer({
         },
         // 0006
         {
+            name: 'mere',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/mereAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0006
+        {
+            name: 'merit',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/meritAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0006
+        {
             name: 'monocular',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/monocularAdunasA.mp3',
