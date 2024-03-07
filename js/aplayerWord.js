@@ -130,6 +130,15 @@ const ap3 = new APlayer({
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
         },
+        // 0005
+        {
+            name: 'mere',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/mereAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
         // 0006
         {
             name: 'formulate',
