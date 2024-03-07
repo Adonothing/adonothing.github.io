@@ -24,6 +24,15 @@ const ap3 = new APlayer({
         },
         // 0002
         {
+            name: 'aforementioned',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/aforementionedAdunasA.mp3',
+            // cover: 'cover1.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#ebd0c2'
+        },
+        // 0002
+        {
             name: 'algorithm',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/algorithmAdunasA.mp3',
