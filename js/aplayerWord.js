@@ -483,6 +483,15 @@ const ap3 = new APlayer({
         },
         // 0012
         {
+            name: 'trivial',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/trivialAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0012
+        {
             name: 'tutorial',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/tutorialAdunasA.mp3',
