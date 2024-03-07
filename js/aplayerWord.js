@@ -112,6 +112,15 @@ const ap3 = new APlayer({
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
         },
+        // 0004
+        {
+            name: 'dynamic',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/dynamicAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
         // 0005
         {
             name: 'estimation',
@@ -333,6 +342,15 @@ const ap3 = new APlayer({
             name: 'route',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/routeAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0010
+        {
+            name: 'scale',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/scaleAdunasA.mp3',
             cover: 'cover2.jpg',
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
