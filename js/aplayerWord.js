@@ -96,6 +96,15 @@ const ap3 = new APlayer({
         },
         // 0003
         {
+            name: 'conventional',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/conventionalAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0003
+        {
             name: 'coordinate',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/coordinateAdunasA.mp3',
