@@ -402,6 +402,15 @@ const ap3 = new APlayer({
         },
         // 0012
         {
+            name: 'sufficient',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/sufficientAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0012
+        {
             name: 'theoretical',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/theoreticalAdunasA.mp3',
