@@ -139,11 +139,11 @@ const ap3 = new APlayer({
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
         },
-        // 0005
+        // 0006
         {
-            name: 'mere',
+            name: 'facilitate',
             artist: 'Adunas',
-            url: 'https://picture.adunas.top/Audio/English/mereAdunasA.mp3',
+            url: 'https://picture.adunas.top/Audio/English/facilitateAdunasA.mp3',
             cover: 'cover2.jpg',
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
@@ -171,6 +171,15 @@ const ap3 = new APlayer({
             name: 'helical',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/helicalAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0006
+        {
+            name: 'invariant',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/invariantAdunasA.mp3',
             cover: 'cover2.jpg',
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
