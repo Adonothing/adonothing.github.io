@@ -159,6 +159,24 @@ const ap3 = new APlayer({
         },
         // 0004
         {
+            name: 'derive',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/deriveAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0004
+        {
+            name: 'divergence',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/divergenceAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0004
+        {
             name: 'dynamic',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/dynamicAdunasA.mp3',
