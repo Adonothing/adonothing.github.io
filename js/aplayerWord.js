@@ -132,6 +132,15 @@ const ap3 = new APlayer({
         },
         // 0003
         {
+            name: 'criterion',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/criterionAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0003
+        {
             name: 'curve',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/curveAdunasA.mp3',
@@ -204,6 +213,15 @@ const ap3 = new APlayer({
         },
         // 0006
         {
+            name: 'hyper',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/hyperAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0006
+        {
             name: 'incorporate',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/incorporateAdunasA.mp3',
@@ -261,6 +279,15 @@ const ap3 = new APlayer({
             name: 'linear',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/linearAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0006
+        {
+            name: 'matrix',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/matrixAdunasA.mp3',
             cover: 'cover2.jpg',
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
@@ -387,6 +414,15 @@ const ap3 = new APlayer({
             name: 'pointer',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/pointerAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0008
+        {
+            name: 'polynomial',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/polynomialAdunasA.mp3',
             cover: 'cover2.jpg',
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
@@ -531,6 +567,15 @@ const ap3 = new APlayer({
             name: 'sufficient',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/sufficientAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0012
+        {
+            name: 'temporal',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/temporalAdunasA.mp3',
             cover: 'cover2.jpg',
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
