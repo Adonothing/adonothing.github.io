@@ -114,6 +114,15 @@ const ap3 = new APlayer({
         },
         // 0003
         {
+            name: 'consistent',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/consistentAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',s
+            theme: '#46718b'
+        },
+        // 0003
+        {
             name: 'conventional',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/conventionalAdunasA.mp3',
