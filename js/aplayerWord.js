@@ -96,6 +96,15 @@ const ap3 = new APlayer({
         },
         // 0003
         {
+            name: 'constrain',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/constrainAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',s
+            theme: '#46718b'
+        },
+        // 0003
+        {
             name: 'conventional',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/conventionalAdunasA.mp3',
@@ -231,6 +240,15 @@ const ap3 = new APlayer({
         },
         // 0006
         {
+            name: 'likelihood',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/likelihoodAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0006
+        {
             name: 'linear',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/linearAdunasA.mp3',
@@ -333,6 +351,15 @@ const ap3 = new APlayer({
             name: 'orthogonal',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/orthogonalAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0007
+        {
+            name: 'particle',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/particleAdunasA.mp3',
             cover: 'cover2.jpg',
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
@@ -465,6 +492,15 @@ const ap3 = new APlayer({
         },
         // 0011
         {
+            name: 'square',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/squareAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0011
+        {
             name: 'stationary',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/stationaryAdunasA.mp3',
@@ -495,6 +531,24 @@ const ap3 = new APlayer({
             name: 'theoretical',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/theoreticalAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0012
+        {
+            name: 'trajectory',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/trajectoryAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0012
+        {
+            name: 'triangle',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/triangleAdunasA.mp3',
             cover: 'cover2.jpg',
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
