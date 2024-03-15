@@ -23,7 +23,7 @@
     <published>2024-03-15T16:22:29.000Z</published>
     <updated>2024-03-15T16:22:29.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href="https://leetcode.cn/problems/two-sum/description/">1.两数之和</a>。</li></ol></div><div class="note info flat"><p>我对算法的学习要求和思路为： 1.算法我认为脱胎于数学，先走数学公式，再写算法。用 Latex数学公式符号，可以简单变形后变成变量名字。 2.每个算法要求做成函数的形式，方便将来使用。</p></div><h1 id="编程导航"><a href="./20240221b.html#算法训练">编程导航</a></h1><h1 id="题目重述">题目重述</h1><p>  给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出和为目标值 target 的那 两个 整数，并返回它们的数组下标。</p><p>你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。</p><p>你可以按任意顺序返回答案。</p><h1 id="数学建模">数学建模</h1><h1 id="算法代码">算法代码</h1><h2 id="思路">思路</h2><h2 id="代码">代码</h2>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href="https://leetcode.cn/problems/two-sum/description/">1.两数之和</a>。</li></ol></div><div class="note info flat"><p>我对算法的学习要求和思路为： 1.算法我认为脱胎于数学，先走数学公式，再写算法。用 Latex数学公式符号，可以简单变形后变成变量名字。 2.每个算法要求做成函数的形式，方便将来使用。</p></div><h1 id="编程导航"><a href="./20240221b.html#算法训练">编程导航</a></h1><h1 id="题目重述">题目重述</h1><p>  给定一个整数数组 <code>IntArray</code> 和一个整数目标值<code>IntTarget</code>，请你在该数组中找出和为目标值 IntTarget的那两个整数，并返回它们的数组下标。</p><p>你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。</p><p>你可以按任意顺序返回答案。</p><h1 id="数学建模">数学建模</h1><p>  设一维数组的名称为 <span class="math inline">\(A\)</span>，数组的元素个数为 <span class="math inline">\(n\)</span>，元素分别为<span class="math inline">\(a_0\)</span>、<spanclass="math inline">\(a_1\)</span>、···、<spanclass="math inline">\(a_{n-1}\)</span>，并记为 <spanclass="math inline">\(a_i\)</span>，其中 <spanclass="math inline">\(0i\)</span> 整数目标值为 <spanclass="math inline">\(b\)</span>。则推导计算公式为：</p><h1 id="算法代码">算法代码</h1><h2 id="思路">思路</h2><h2 id="代码">代码</h2>]]></content>
     
     
     <summary type="html">🍰本文记录力扣C++算法的学习内容</summary>
@@ -438,9 +438,9 @@
     <category term="博客" scheme="https://www.adunas.top/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="html" scheme="https://www.adunas.top/tags/html/"/>
-    
     <category term="hexo" scheme="https://www.adunas.top/tags/hexo/"/>
+    
+    <category term="html" scheme="https://www.adunas.top/tags/html/"/>
     
   </entry>
   
