@@ -23,7 +23,7 @@
     <published>2024-03-18T16:21:04.000Z</published>
     <updated>2024-03-18T16:21:04.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#Kali">系统软件导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="系统软件导航"><ahref="./20240317b.html#Kali">系统软件导航</a></h1>]]></content>
     
     
     <summary type="html">🍰本文记录操作系统 Kali 的使用技巧</summary>
@@ -46,7 +46,7 @@
     <published>2024-03-18T16:14:03.000Z</published>
     <updated>2024-03-18T16:14:03.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#移动端应用程序">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己学习设计移动端应用程序的过程</summary>
@@ -67,7 +67,7 @@
     <published>2024-03-18T16:10:42.000Z</published>
     <updated>2024-03-18T16:10:42.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#%E4%BC%A0%E6%84%9F%E5%99%A8%E7%89%A9%E8%81%94%E7%BD%91">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#传感器物联网">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己学习搭建传感器物联网的过程</summary>
@@ -90,7 +90,7 @@
     <published>2024-03-18T16:08:40.000Z</published>
     <updated>2024-03-18T16:08:40.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#%E5%9B%BE%E5%83%8F%E8%AF%86%E5%88%AB">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#图像识别">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己学习图像识别的过程</summary>
@@ -113,7 +113,7 @@
     <published>2024-03-18T06:46:23.000Z</published>
     <updated>2024-03-18T06:46:23.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#GNSS%E6%8E%A5%E6%94%B6%E6%9C%BA">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#GNSS接收机">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己学习制作GNSS接收机的过程</summary>
@@ -134,34 +134,13 @@
   </entry>
   
   <entry>
-    <title>工程实践：PCB焊接技巧</title>
-    <link href="https://www.adunas.top/posts/20240318zk.html"/>
-    <id>https://www.adunas.top/posts/20240318zk.html</id>
-    <published>2024-03-18T06:46:23.000Z</published>
-    <updated>2024-03-18T06:46:23.000Z</updated>
-    
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#PCB%E7%84%8A%E6%8E%A5%E6%8A%80%E5%B7%A7">工程实践导航</a></h1>]]></content>
-    
-    
-    <summary type="html">🍱本文总结自己的PCB焊接技巧</summary>
-    
-    
-    
-    <category term="工程实践" scheme="https://www.adunas.top/categories/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/"/>
-    
-    
-    <category term="PCB焊接技巧" scheme="https://www.adunas.top/tags/PCB%E7%84%8A%E6%8E%A5%E6%8A%80%E5%B7%A7/"/>
-    
-  </entry>
-  
-  <entry>
     <title>工程实践：云台机械臂</title>
     <link href="https://www.adunas.top/posts/20240318zl.html"/>
     <id>https://www.adunas.top/posts/20240318zl.html</id>
     <published>2024-03-18T06:46:23.000Z</published>
     <updated>2024-03-18T06:46:23.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#%E4%BA%91%E5%8F%B0%E6%9C%BA%E6%A2%B0%E8%87%82">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#云台机械臂">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己玩儿云台机械臂的内容</summary>
@@ -184,7 +163,7 @@
     <published>2024-03-18T06:46:23.000Z</published>
     <updated>2024-03-18T06:46:23.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#%E5%B9%B3%E8%A1%A1%E8%BD%A6">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#平衡车">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己手动搭建平衡车的过程</summary>
@@ -201,13 +180,34 @@
   </entry>
   
   <entry>
+    <title>工程实践：PCB焊接技巧</title>
+    <link href="https://www.adunas.top/posts/20240318zk.html"/>
+    <id>https://www.adunas.top/posts/20240318zk.html</id>
+    <published>2024-03-18T06:46:23.000Z</published>
+    <updated>2024-03-18T06:46:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#PCB焊接技巧">工程实践导航</a></h1>]]></content>
+    
+    
+    <summary type="html">🍱本文总结自己的PCB焊接技巧</summary>
+    
+    
+    
+    <category term="工程实践" scheme="https://www.adunas.top/categories/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/"/>
+    
+    
+    <category term="PCB焊接技巧" scheme="https://www.adunas.top/tags/PCB%E7%84%8A%E6%8E%A5%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
     <title>工程实践：遥控手柄</title>
     <link href="https://www.adunas.top/posts/20240318zi.html"/>
     <id>https://www.adunas.top/posts/20240318zi.html</id>
     <published>2024-03-18T06:46:23.000Z</published>
     <updated>2024-03-18T06:46:23.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#%E9%81%A5%E6%8E%A7%E6%89%8B%E6%9F%84">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#遥控手柄">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己手动制作遥控手柄的过程</summary>
@@ -234,7 +234,7 @@
     <published>2024-03-18T06:35:35.000Z</published>
     <updated>2024-03-18T06:35:35.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#%E6%97%A0%E4%BA%BA%E8%88%B9">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#无人船">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己手动搭建无人船的过程</summary>
@@ -261,7 +261,7 @@
     <published>2024-03-18T06:34:07.000Z</published>
     <updated>2024-03-18T06:34:07.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#%E6%97%A0%E4%BA%BA%E6%9C%BA">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#无人机">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己手动搭建无人机的过程</summary>
@@ -288,7 +288,7 @@
     <published>2024-03-18T06:22:39.000Z</published>
     <updated>2024-03-18T06:22:39.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#%E6%99%BA%E8%83%BD%E8%BD%A6">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#智能车">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己手动搭建智能车的过程</summary>
@@ -309,170 +309,186 @@
   </entry>
   
   <entry>
-    <title>思想哲学：事业观</title>
-    <link href="https://www.adunas.top/posts/20240318v.html"/>
-    <id>https://www.adunas.top/posts/20240318v.html</id>
-    <published>2024-03-18T04:32:05.000Z</published>
-    <updated>2024-03-18T04:32:05.000Z</updated>
+    <title>操作系统教程：Android</title>
+    <link href="https://www.adunas.top/posts/20240318t.html"/>
+    <id>https://www.adunas.top/posts/20240318t.html</id>
+    <published>2024-03-18T03:56:30.000Z</published>
+    <updated>2024-03-18T03:56:30.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#%E4%BA%8B%E4%B8%9A%E8%A7%82">系统软件导航</a></h1>]]></content>
-    
-    
-    <summary type="html">🍰本文记录 Adunas 的事业理想</summary>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="系统软件导航"><ahref="./20240317b.html#Android">系统软件导航</a></h1>]]></content>
     
     
-    
-    <category term="思想" scheme="https://www.adunas.top/categories/%E6%80%9D%E6%83%B3/"/>
-    
-    
-    <category term="事业" scheme="https://www.adunas.top/tags/%E4%BA%8B%E4%B8%9A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>思想：国内矛盾分析</title>
-    <link href="https://www.adunas.top/posts/20240318zb.html"/>
-    <id>https://www.adunas.top/posts/20240318zb.html</id>
-    <published>2024-03-18T04:32:05.000Z</published>
-    <updated>2024-03-18T04:32:05.000Z</updated>
-    
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#%E5%9B%BD%E5%86%85%E7%9F%9B%E7%9B%BE%E5%88%86%E6%9E%90">系统软件导航</a></h1><p>中国目前是非常棒的，但是内部也有很多矛盾和冲突需要解决，有些问题需要正视。</p>]]></content>
-    
-    
-    <summary type="html">🍰本文记录 Adunas 对国内问题的看法</summary>
+    <summary type="html">🍰本文记录操作系统 Android 的使用技巧</summary>
     
     
     
-    <category term="思想" scheme="https://www.adunas.top/categories/%E6%80%9D%E6%83%B3/"/>
+    <category term="系统软件" scheme="https://www.adunas.top/categories/%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6/"/>
     
     
-    <category term="自我" scheme="https://www.adunas.top/tags/%E8%87%AA%E6%88%91/"/>
+    <category term="Android" scheme="https://www.adunas.top/tags/Android/"/>
+    
+    <category term="软件教程" scheme="https://www.adunas.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
-    <title>思想：羡慕与嫉妒</title>
-    <link href="https://www.adunas.top/posts/20240318x.html"/>
-    <id>https://www.adunas.top/posts/20240318x.html</id>
-    <published>2024-03-18T04:32:05.000Z</published>
-    <updated>2024-03-18T04:32:05.000Z</updated>
+    <title>操作系统教程：IOS</title>
+    <link href="https://www.adunas.top/posts/20240318r.html"/>
+    <id>https://www.adunas.top/posts/20240318r.html</id>
+    <published>2024-03-18T03:54:02.000Z</published>
+    <updated>2024-03-18T03:54:02.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#%E7%BE%A1%E6%85%95%E4%B8%8E%E5%AB%89%E5%A6%92">系统软件导航</a></h1>]]></content>
-    
-    
-    <summary type="html">🍰本文记录 Adunas 的羡慕与嫉妒</summary>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="系统软件导航"><ahref="./20240317b.html#IOS">系统软件导航</a></h1>]]></content>
     
     
-    
-    <category term="思想" scheme="https://www.adunas.top/categories/%E6%80%9D%E6%83%B3/"/>
-    
-    
-    <category term="自我" scheme="https://www.adunas.top/tags/%E8%87%AA%E6%88%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>思想：国际局势分析</title>
-    <link href="https://www.adunas.top/posts/20240318zb.html"/>
-    <id>https://www.adunas.top/posts/20240318zb.html</id>
-    <published>2024-03-18T04:32:05.000Z</published>
-    <updated>2024-03-18T04:32:05.000Z</updated>
-    
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#%E5%9B%BD%E9%99%85%E5%B1%80%E5%8A%BF%E5%88%86%E6%9E%90">系统软件导航</a></h1><p>目前国际形势复杂。巴以冲突、俄乌战争、贸易战争、中国威胁论、霸权主义等。中国面临的国际问题不容乐观。</p>]]></content>
-    
-    
-    <summary type="html">🍰本文记录 Adunas 对国际局势的分析</summary>
+    <summary type="html">🍰本文记录操作系统 IOS 的使用技巧</summary>
     
     
     
-    <category term="思想" scheme="https://www.adunas.top/categories/%E6%80%9D%E6%83%B3/"/>
+    <category term="系统软件" scheme="https://www.adunas.top/categories/%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6/"/>
     
     
-    <category term="自我" scheme="https://www.adunas.top/tags/%E8%87%AA%E6%88%91/"/>
+    <category term="软件教程" scheme="https://www.adunas.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="IOS" scheme="https://www.adunas.top/tags/IOS/"/>
     
   </entry>
   
   <entry>
-    <title>思想：圆与方</title>
-    <link href="https://www.adunas.top/posts/20240318z.html"/>
-    <id>https://www.adunas.top/posts/20240318z.html</id>
-    <published>2024-03-18T04:32:05.000Z</published>
-    <updated>2024-03-18T04:32:05.000Z</updated>
+    <title>操作系统教程：MacOS</title>
+    <link href="https://www.adunas.top/posts/20240318r.html"/>
+    <id>https://www.adunas.top/posts/20240318r.html</id>
+    <published>2024-03-18T03:51:09.000Z</published>
+    <updated>2024-03-18T03:51:09.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#%E5%9C%86%E4%B8%8E%E6%96%B9">系统软件导航</a></h1><p>包容与纵容</p><p>世俗圆滑与刚正不阿</p><p>挺身而出与打不还手</p>]]></content>
-    
-    
-    <summary type="html">🍰本文记录 Adunas 对事物多面性的看法</summary>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="系统软件导航"><ahref="./20240317b.html#MacOS">系统软件导航</a></h1>]]></content>
     
     
-    
-    <category term="思想" scheme="https://www.adunas.top/categories/%E6%80%9D%E6%83%B3/"/>
-    
-    
-    <category term="自我" scheme="https://www.adunas.top/tags/%E8%87%AA%E6%88%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>思想：批评和赞美</title>
-    <link href="https://www.adunas.top/posts/20240318y.html"/>
-    <id>https://www.adunas.top/posts/20240318y.html</id>
-    <published>2024-03-18T04:32:05.000Z</published>
-    <updated>2024-03-18T04:32:05.000Z</updated>
-    
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#%E6%89%B9%E8%AF%84%E5%92%8C%E8%B5%9E%E7%BE%8E">系统软件导航</a></h1><p>或许这篇文章应该放入 <a href="./20240318z.html">圆与方</a> 里。</p>]]></content>
-    
-    
-    <summary type="html">🍰本文记录 Adunas 的批评和赞美</summary>
+    <summary type="html">🍰本文记录操作系统 MacOS 的使用技巧</summary>
     
     
     
-    <category term="思想" scheme="https://www.adunas.top/categories/%E6%80%9D%E6%83%B3/"/>
+    <category term="系统软件" scheme="https://www.adunas.top/categories/%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6/"/>
     
     
-    <category term="自我" scheme="https://www.adunas.top/tags/%E8%87%AA%E6%88%91/"/>
+    <category term="软件教程" scheme="https://www.adunas.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="MacOS" scheme="https://www.adunas.top/tags/MacOS/"/>
     
   </entry>
   
   <entry>
-    <title>思想哲学：爱情观</title>
-    <link href="https://www.adunas.top/posts/20240318u.html"/>
-    <id>https://www.adunas.top/posts/20240318u.html</id>
-    <published>2024-03-18T04:32:05.000Z</published>
-    <updated>2024-03-18T04:32:05.000Z</updated>
+    <title>操作系统教程：Linux</title>
+    <link href="https://www.adunas.top/posts/20240318q.html"/>
+    <id>https://www.adunas.top/posts/20240318q.html</id>
+    <published>2024-03-18T03:49:38.000Z</published>
+    <updated>2024-03-18T03:49:38.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#%E7%88%B1%E6%83%85%E8%A7%82">系统软件导航</a></h1>]]></content>
-    
-    
-    <summary type="html">🍰本文记录 Adunas 的爱情观</summary>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="系统软件导航"><ahref="./20240317b.html#Linux">系统软件导航</a></h1>]]></content>
     
     
+    <summary type="html">🍰本文记录操作系统 Linux 的使用技巧</summary>
     
-    <category term="思想" scheme="https://www.adunas.top/categories/%E6%80%9D%E6%83%B3/"/>
     
     
-    <category term="爱情" scheme="https://www.adunas.top/tags/%E7%88%B1%E6%83%85/"/>
+    <category term="系统软件" scheme="https://www.adunas.top/categories/%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="软件教程" scheme="https://www.adunas.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Linux" scheme="https://www.adunas.top/tags/Linux/"/>
     
   </entry>
   
   <entry>
-    <title>思想哲学：自我竞争理论</title>
-    <link href="https://www.adunas.top/posts/20240318w.html"/>
-    <id>https://www.adunas.top/posts/20240318w.html</id>
-    <published>2024-03-18T04:32:05.000Z</published>
-    <updated>2024-03-18T04:32:05.000Z</updated>
+    <title>操作系统教程：Windows</title>
+    <link href="https://www.adunas.top/posts/20240318p.html"/>
+    <id>https://www.adunas.top/posts/20240318p.html</id>
+    <published>2024-03-18T03:47:55.000Z</published>
+    <updated>2024-03-18T03:47:55.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#%E8%87%AA%E6%88%91%E7%AB%9E%E4%BA%89%E7%90%86%E8%AE%BA">系统软件导航</a></h1><p>  自我竞争很容易理解为内卷，但不是的。内卷是贬义词，是变态发育的竞争，而自我竞争理论将是良性的自我循环竞争，目的是成就自己的理想。</p>]]></content>
-    
-    
-    <summary type="html">🍰本文记录 Adunas 的自我竞争理论</summary>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="系统软件导航"><ahref="./20240317b.html#Windows">系统软件导航</a></h1>]]></content>
     
     
+    <summary type="html">🍰本文记录操作系统 Windows 的使用技巧</summary>
     
-    <category term="思想" scheme="https://www.adunas.top/categories/%E6%80%9D%E6%83%B3/"/>
     
     
-    <category term="自我" scheme="https://www.adunas.top/tags/%E8%87%AA%E6%88%91/"/>
+    <category term="系统软件" scheme="https://www.adunas.top/categories/%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="软件教程" scheme="https://www.adunas.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Windows" scheme="https://www.adunas.top/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软件教程：PS</title>
+    <link href="https://www.adunas.top/posts/20240318O.html"/>
+    <id>https://www.adunas.top/posts/20240318O.html</id>
+    <published>2024-03-18T03:40:53.000Z</published>
+    <updated>2024-03-18T03:40:53.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="系统软件导航"><ahref="./20240317b.html#PS">系统软件导航</a></h1>]]></content>
+    
+    
+    <summary type="html">🍰本文记录软件 PS 的使用方法</summary>
+    
+    
+    
+    <category term="系统软件" scheme="https://www.adunas.top/categories/%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="软件教程" scheme="https://www.adunas.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="PS" scheme="https://www.adunas.top/tags/PS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软件教程：Keil</title>
+    <link href="https://www.adunas.top/posts/20240318l.html"/>
+    <id>https://www.adunas.top/posts/20240318l.html</id>
+    <published>2024-03-18T03:30:27.000Z</published>
+    <updated>2024-03-18T03:30:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="系统软件导航"><ahref="./20240317b.html#Keil">系统软件导航</a></h1>]]></content>
+    
+    
+    <summary type="html">🍰本文记录软件 Keil 的使用方法</summary>
+    
+    
+    
+    <category term="系统软件" scheme="https://www.adunas.top/categories/%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="软件教程" scheme="https://www.adunas.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Keil" scheme="https://www.adunas.top/tags/Keil/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软件教程：Multisim</title>
+    <link href="https://www.adunas.top/posts/20240318m.html"/>
+    <id>https://www.adunas.top/posts/20240318m.html</id>
+    <published>2024-03-18T03:30:27.000Z</published>
+    <updated>2024-03-18T03:30:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="系统软件导航"><ahref="./20240317b.html#Multisim">系统软件导航</a></h1>]]></content>
+    
+    
+    <summary type="html">🍰本文记录软件 Multisim 的使用方法</summary>
+    
+    
+    
+    <category term="系统软件" scheme="https://www.adunas.top/categories/%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="软件教程" scheme="https://www.adunas.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Multisim" scheme="https://www.adunas.top/tags/Multisim/"/>
     
   </entry>
   
