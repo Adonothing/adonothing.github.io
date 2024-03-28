@@ -6,7 +6,7 @@
   <link href="https://www.adunas.top/atom.xml" rel="self"/>
   
   <link href="https://www.adunas.top/"/>
-  <updated>2024-03-25T03:05:02.000Z</updated>
+  <updated>2024-03-28T13:31:08.000Z</updated>
   <id>https://www.adunas.top/</id>
   
   <author>
@@ -17,13 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>C语言：进阶篇</title>
+    <link href="https://www.adunas.top/posts/20240328a.html"/>
+    <id>https://www.adunas.top/posts/20240328a.html</id>
+    <published>2024-03-28T13:31:08.000Z</published>
+    <updated>2024-03-28T13:31:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="编程导航"><a href="./20240221b.html#进阶篇">编程导航</a></h1><h1 id="动态内存分配">动态内存分配</h1><p>  malloc函数是动态内存分配函数，使用数组和指针的时候可以用到。目的是，初始化数组时会占用一定的内存，而为了保证数组能兼容多种情况，初始化的长度往往很大，容易造成浪费，这时就可以利用动态内存分配函数，用多少给多少。但是分配的内存的数组用完了以后要及时清理，否则会堆积。</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="comment">// 引入标准库stdlib.h</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="comment">// 或者引入库 malloc.h</span></span><br><span class="line"><span class="comment">// #include &lt;malloc.h&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//主函数</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//初始化</span></span><br><span class="line">    <span class="type">signed</span> <span class="type">int</span> n = <span class="number">5</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//分配动态内存</span></span><br><span class="line">    <span class="comment">//方法一</span></span><br><span class="line">    <span class="type">signed</span> <span class="type">int</span>* p = <span class="literal">NULL</span>,* q = <span class="literal">NULL</span>;</span><br><span class="line">    p = (<span class="type">int</span>*)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(*p) * n);</span><br><span class="line">    <span class="comment">//方法二</span></span><br><span class="line">    <span class="comment">//int* p = malloc(sizeof(*p) * n);</span></span><br><span class="line">    <span class="comment">//signed int* q = NULL;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (p != <span class="literal">NULL</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//地址备份</span></span><br><span class="line">        q = p;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//赋值</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="type">signed</span> <span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i = i + <span class="number">1</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            *p = -i;</span><br><span class="line">            p = p + <span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//打印输出</span></span><br><span class="line">        p = q;</span><br><span class="line">        p = p + <span class="number">2</span>;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;指针指向的值为：%d\n&quot;</span>, *p);</span><br><span class="line"></span><br><span class="line">        <span class="comment">//清理动态内存</span></span><br><span class="line">        <span class="built_in">free</span>(q);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;malloc error!\n&quot;</span>);</span><br><span class="line">        <span class="built_in">exit</span>(<span class="number">-1</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//清理</span></span><br><span class="line">    p = <span class="literal">NULL</span>; q = <span class="literal">NULL</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><ahref="https://tool.lu/coderunner/embed/eFz.html">点击测试代码</a></p><p>在清理动态内存的时候，就会把这一段内存里的所有数据初始化，指针地址不变。清理动态内存需要让指针指向最开始定义时的地址，所以对地址进行了备份。</p><p>增加了判断函数，判断是否成功分配内存空间，使程序更加严谨。</p>]]></content>
+    
+    
+    <summary type="html">🍪本文为 C 语言进阶的教程和学习笔记</summary>
+    
+    
+    
+    <category term="编程" scheme="https://www.adunas.top/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="C" scheme="https://www.adunas.top/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
     <title>计算机原理</title>
     <link href="https://www.adunas.top/posts/20240325a.html"/>
     <id>https://www.adunas.top/posts/20240325a.html</id>
     <published>2024-03-25T03:05:02.000Z</published>
     <updated>2024-03-25T03:05:02.000Z</updated>
     
-    <content type="html"><![CDATA[<h1><a href="./20240221b.html#%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%8E%9F%E7%90%86">编程导航</a></h1><h1>栈</h1><p>  程序运行时会产生一些中间变量，尤其是调用函数时，往往会调用多个函数，在此期间就会产生临时存储的参数，而 cpu 的内存是远远不够的，这个时候需要调用一个速度快且容量大的存储空间，此时运行内存就非常合适。栈就是存放货物仓库的意思。根据函数参数存储的需求，要求存储的数据是先进先出，后进后出的。这就很好理解了。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="编程导航"><ahref="./20240221b.html#计算机原理">编程导航</a></h1><h1 id="栈">栈</h1><p>  程序运行时会产生一些中间变量，尤其是调用函数时，往往会调用多个函数，在此期间就会产生临时存储的参数，而cpu的内存是远远不够的，这个时候需要调用一个速度快且容量大的存储空间，此时运行内存就非常合适。栈就是存放货物仓库的意思。根据函数参数存储的需求，要求存储的数据是先进先出，后进后出的。这就很好理解了。</p>]]></content>
     
     
     <summary type="html">🥯本文为 计算机原理 的教程和学习笔记</summary>
@@ -44,7 +65,7 @@
     <published>2024-03-24T04:26:20.000Z</published>
     <updated>2024-03-24T04:26:20.000Z</updated>
     
-    <content type="html"><![CDATA[<h1><a href="./20240221b.html#%E5%9F%BA%E7%A1%80%E7%AF%87">编程导航</a></h1><h1>打印</h1><p>  打印不同的类型的值，符号是不同的。</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">//主函数</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//有符号整型</span></span><br><span class="line">    <span class="type">signed</span> <span class="type">int</span> a = <span class="number">-1</span>;</span><br><span class="line">    <span class="comment">//无符号整型</span></span><br><span class="line">    <span class="type">unsigned</span> <span class="type">int</span> b = <span class="number">-1</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;有符号整型：%d，无符号整型：%u\n&quot;</span>, a, b);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><a href="https://tool.lu/coderunner/embed/eFz.html">点击测试代码</a></p><h1>指针</h1><h2 id="易错点">易错点</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">//主函数</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">signed</span> <span class="type">int</span> arry[] = &#123; <span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span> &#125;;</span><br><span class="line">    <span class="type">signed</span> <span class="type">int</span>* p;</span><br><span class="line">    p = arry;</span><br><span class="line">    <span class="comment">//打印第一个和第二个元素</span></span><br><span class="line">    <span class="comment">//错误写法</span></span><br><span class="line">    <span class="comment">// printf(&quot;数组下标为：%u %u\n&quot;, *ans, *ans + 1);</span></span><br><span class="line">    <span class="comment">//正确写法</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;数组下标为：%u %u\n&quot;</span>, *ans, *(ans + <span class="number">1</span>));</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><a href="https://tool.lu/coderunner/embed/eFz.html">点击测试代码</a></p><h2 id="数组和指针">数组和指针</h2><h3 id="等价关系">等价关系</h3><p>  变量和数组是等价的。但是还是有细微区别。</p><p>  考虑一种情况：</p><table><thead><tr><th>数学符号</th><th>代码变量</th><th>说明</th></tr></thead><tbody><tr><td>$A$</td><td>signed int A[] = { 1, 2, 3, 4, 5 }</td><td>给定矩阵</td></tr><tr><td>$N_A$</td><td>unsigned int N_A</td><td>元素个数（矩阵计算）</td></tr><tr><td>-</td><td>signed int* p = A</td><td>矩阵指针</td></tr><tr><td>$N_p$</td><td>unsigned int N_p</td><td>元素个数（指针计算）</td></tr></tbody></table><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">signed</span> <span class="type">int</span> A[] = &#123; <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span> &#125;;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//元素个数计算</span></span><br><span class="line">    <span class="comment">//矩阵法</span></span><br><span class="line">    <span class="type">unsigned</span> <span class="type">int</span> N_A = <span class="keyword">sizeof</span>(A) / <span class="keyword">sizeof</span>(A[<span class="number">0</span>]);</span><br><span class="line">    <span class="comment">//或者将 sizeof(A[0]) 写成 sizeof(signed int)，与数组元素变量定义保持一致即可</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;矩阵计算的元素个数为： %d\n&quot;</span>, N_A);</span><br><span class="line"></span><br><span class="line">    <span class="comment">//指针法</span></span><br><span class="line">    <span class="type">signed</span> <span class="type">int</span>* p = A;</span><br><span class="line">    <span class="comment">//下面一行是错误的计算方法，因为用指针表示后，*p 指向数组当前元素，计算指针的长度就是当前元素的长度而不是数组的长度。</span></span><br><span class="line">    <span class="comment">//signed int N_p = sizeof(*p) / sizeof(signed int);</span></span><br><span class="line">    <span class="comment">//==========下面的方法也是错误的==========</span></span><br><span class="line">    <span class="comment">//对于指针指向的数组元素超出最后一个时，该地址内的值是随机的。只可能在像字符串数组中含结束符号的元素数组中使用。</span></span><br><span class="line">    <span class="comment">/*unsigned int N_p = 0;</span></span><br><span class="line"><span class="comment">    while (*p != NULL) &#123;</span></span><br><span class="line"><span class="comment">        p++;</span></span><br><span class="line"><span class="comment">        N_p = N_p + 1;</span></span><br><span class="line"><span class="comment">    &#125;</span></span><br><span class="line"><span class="comment">    printf(&quot;指针计算的元素个数为： %d\n&quot;, N_p);*/</span></span><br><span class="line">    <span class="comment">//========================================</span></span><br><span class="line">    <span class="comment">//总结：指针法是无效的，这里就充分地看出了数组和指针地区别</span></span><br><span class="line">    <span class="comment">//正确地做法是用数组计算元素个数，作为参数进行传递</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><a href="https://tool.lu/coderunner/embed/eFz.html">点击测试代码</a></p><h3 id="符号类型">符号类型</h3><p>  数组和指针本身都是无符号整型的。而定义数组时定义的类型是指定元素的类型。同理定义指针的类型是定义指针指向的地址内值的类型。</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">//主函数</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">signed</span> <span class="type">int</span> C[<span class="number">2</span>] = &#123; <span class="number">-1</span>,<span class="number">2</span> &#125;;</span><br><span class="line">    <span class="type">unsigned</span> <span class="type">int</span>* p = C;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;数组显示第一个元素为： %d，指针显示第一个元素为： %d\n&quot;</span>, C[<span class="number">0</span>], *p);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><a href="https://tool.lu/coderunner/embed/eFz.html">点击测试代码</a></p><p>上面定义的数组是有符号整型，指针是无符号整型，指针指向的内存地址内的值不发生改变，但是指针无符号是没有负数的，所有都会显示一个正数。</p><h1>数组函数</h1><p>  数组不能作为函数变量返回，但是可以返回数组的指针。</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">//声明</span></span><br><span class="line"><span class="type">unsigned</span> <span class="type">int</span>* <span class="title function_">Array</span><span class="params">(<span class="type">unsigned</span> <span class="type">int</span> a, <span class="type">signed</span> <span class="type">int</span> b)</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//主函数</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//输出</span></span><br><span class="line">    <span class="type">unsigned</span> <span class="type">int</span>* ans;</span><br><span class="line">    ans = Array(nums, n, target);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;矩阵计算的元素个数为： %d\n&quot;</span>, ans);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//函数</span></span><br><span class="line"><span class="type">unsigned</span> <span class="type">int</span>* <span class="title function_">Array</span><span class="params">(<span class="type">unsigned</span> <span class="type">int</span> a, <span class="type">signed</span> <span class="type">int</span> b)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//返回数组下标</span></span><br><span class="line">    <span class="type">signed</span> <span class="type">int</span> C[<span class="number">2</span>] = &#123; i,j &#125;;</span><br><span class="line">    <span class="keyword">return</span> C;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><a href="https://tool.lu/coderunner/embed/eFz.html">点击测试代码</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="编程导航"><a href="./20240221b.html#基础篇">编程导航</a></h1><h1 id="打印">打印</h1><p>  打印不同的类型的值，符号是不同的。</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">//主函数</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//有符号整型</span></span><br><span class="line">    <span class="type">signed</span> <span class="type">int</span> a = <span class="number">-1</span>;</span><br><span class="line">    <span class="comment">//无符号整型</span></span><br><span class="line">    <span class="type">unsigned</span> <span class="type">int</span> b = <span class="number">-1</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;有符号整型：%d，无符号整型：%u\n&quot;</span>, a, b);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><ahref="https://tool.lu/coderunner/embed/eFz.html">点击测试代码</a></p><h1 id="指针">指针</h1><h2 id="易错点1">易错点1</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">//主函数</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">signed</span> <span class="type">int</span> arry[] = &#123; <span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span> &#125;;</span><br><span class="line">    <span class="type">signed</span> <span class="type">int</span>* p;</span><br><span class="line">    p = arry;</span><br><span class="line">    <span class="comment">//打印第一个和第二个元素</span></span><br><span class="line">    <span class="comment">//错误写法</span></span><br><span class="line">    <span class="comment">// printf(&quot;数组下标为：%u %u\n&quot;, *ans, *ans + 1);</span></span><br><span class="line">    <span class="comment">//正确写法</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;数组下标为：%u %u\n&quot;</span>, *ans, *(ans + <span class="number">1</span>));</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><ahref="https://tool.lu/coderunner/embed/eFz.html">点击测试代码</a></p><h2 id="易错点2">易错点2</h2><p>  初始化两个指针容易出现错误，导致第二个不是指针而是变量。</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">//主函数</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//错误写法</span></span><br><span class="line">    <span class="comment">// signed int* p = NULL, q = NULL;</span></span><br><span class="line">    <span class="comment">//正确写法</span></span><br><span class="line">    <span class="type">signed</span> <span class="type">int</span>* p = <span class="literal">NULL</span>,* q = <span class="literal">NULL</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><ahref="https://tool.lu/coderunner/embed/eFz.html">点击测试代码</a></p><h2 id="数组和指针">数组和指针</h2><h3 id="等价关系">等价关系</h3><p>  变量和数组是等价的。但是还是有细微区别。</p><p>  考虑一种情况：</p><table><thead><tr class="header"><th>数学符号</th><th>代码变量</th><th>说明</th></tr></thead><tbody><tr class="odd"><td><span class="math inline">\(A\)</span></td><td>signed int A[] = { 1, 2, 3, 4, 5 }</td><td>给定矩阵</td></tr><tr class="even"><td><span class="math inline">\(N_A\)</span></td><td>unsigned int N_A</td><td>元素个数（矩阵计算）</td></tr><tr class="odd"><td>-</td><td>signed int* p = A</td><td>矩阵指针</td></tr><tr class="even"><td><span class="math inline">\(N_p\)</span></td><td>unsigned int N_p</td><td>元素个数（指针计算）</td></tr></tbody></table><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">signed</span> <span class="type">int</span> A[] = &#123; <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span> &#125;;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//元素个数计算</span></span><br><span class="line">    <span class="comment">//矩阵法</span></span><br><span class="line">    <span class="type">unsigned</span> <span class="type">int</span> N_A = <span class="keyword">sizeof</span>(A) / <span class="keyword">sizeof</span>(A[<span class="number">0</span>]);</span><br><span class="line">    <span class="comment">//或者将 sizeof(A[0]) 写成 sizeof(signed int)，与数组元素变量定义保持一致即可</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;矩阵计算的元素个数为： %d\n&quot;</span>, N_A);</span><br><span class="line"></span><br><span class="line">    <span class="comment">//指针法</span></span><br><span class="line">    <span class="type">signed</span> <span class="type">int</span>* p = A;</span><br><span class="line">    <span class="comment">//下面一行是错误的计算方法，因为用指针表示后，*p 指向数组当前元素，计算指针的长度就是当前元素的长度而不是数组的长度。</span></span><br><span class="line">    <span class="comment">//signed int N_p = sizeof(*p) / sizeof(signed int);</span></span><br><span class="line">    <span class="comment">//==========下面的方法也是错误的==========</span></span><br><span class="line">    <span class="comment">//对于指针指向的数组元素超出最后一个时，该地址内的值是随机的。只可能在像字符串数组中含结束符号的元素数组中使用。</span></span><br><span class="line">    <span class="comment">/*unsigned int N_p = 0;</span></span><br><span class="line"><span class="comment">    while (*p != NULL) &#123;</span></span><br><span class="line"><span class="comment">        p++;</span></span><br><span class="line"><span class="comment">        N_p = N_p + 1;</span></span><br><span class="line"><span class="comment">    &#125;</span></span><br><span class="line"><span class="comment">    printf(&quot;指针计算的元素个数为： %d\n&quot;, N_p);*/</span></span><br><span class="line">    <span class="comment">//========================================</span></span><br><span class="line">    <span class="comment">//总结：指针法是无效的，这里就充分地看出了数组和指针地区别</span></span><br><span class="line">    <span class="comment">//正确地做法是用数组计算元素个数，作为参数进行传递</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><ahref="https://tool.lu/coderunner/embed/eFz.html">点击测试代码</a></p><h3 id="符号类型">符号类型</h3><p>  数组和指针本身都是无符号整型的。而定义数组时定义的类型是指定元素的类型。同理定义指针的类型是定义指针指向的地址内值的类型。</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">//主函数</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="type">signed</span> <span class="type">int</span> C[<span class="number">2</span>] = &#123; <span class="number">-1</span>,<span class="number">2</span> &#125;;</span><br><span class="line">    <span class="type">unsigned</span> <span class="type">int</span>* p = C;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;数组显示第一个元素为： %d，指针显示第一个元素为： %d\n&quot;</span>, C[<span class="number">0</span>], *p);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><ahref="https://tool.lu/coderunner/embed/eFz.html">点击测试代码</a></p><p>上面定义的数组是有符号整型，指针是无符号整型，指针指向的内存地址内的值不发生改变，但是指针无符号是没有负数的，所有都会显示一个正数。</p><h1 id="数组函数">数组函数</h1><p>  数组不能作为函数变量返回，但是可以返回数组的指针。</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">//声明</span></span><br><span class="line"><span class="type">unsigned</span> <span class="type">int</span>* <span class="title function_">Array</span><span class="params">(<span class="type">unsigned</span> <span class="type">int</span> a, <span class="type">signed</span> <span class="type">int</span> b)</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//主函数</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//输出</span></span><br><span class="line">    <span class="type">unsigned</span> <span class="type">int</span>* ans;</span><br><span class="line">    ans = Array(nums, n, target);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;矩阵计算的元素个数为： %d\n&quot;</span>, ans);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//函数</span></span><br><span class="line"><span class="type">unsigned</span> <span class="type">int</span>* <span class="title function_">Array</span><span class="params">(<span class="type">unsigned</span> <span class="type">int</span> a, <span class="type">signed</span> <span class="type">int</span> b)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//返回数组下标</span></span><br><span class="line">    <span class="type">signed</span> <span class="type">int</span> C[<span class="number">2</span>] = &#123; i,j &#125;;</span><br><span class="line">    <span class="keyword">return</span> C;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><ahref="https://tool.lu/coderunner/embed/eFz.html">点击测试代码</a></p>]]></content>
     
     
     <summary type="html">🥯本文为 C 语言基础的教程和学习笔记</summary>
@@ -65,7 +86,7 @@
     <published>2024-03-18T16:21:04.000Z</published>
     <updated>2024-03-18T16:21:04.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#Kali">系统软件导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="系统软件导航"><ahref="./20240317b.html#Kali">系统软件导航</a></h1>]]></content>
     
     
     <summary type="html">🍰本文记录操作系统 Kali 的使用技巧</summary>
@@ -88,7 +109,7 @@
     <published>2024-03-18T16:14:03.000Z</published>
     <updated>2024-03-18T16:14:03.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#移动端应用程序">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己学习设计移动端应用程序的过程</summary>
@@ -109,7 +130,7 @@
     <published>2024-03-18T16:10:42.000Z</published>
     <updated>2024-03-18T16:10:42.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#%E4%BC%A0%E6%84%9F%E5%99%A8%E7%89%A9%E8%81%94%E7%BD%91">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#传感器物联网">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己学习搭建传感器物联网的过程</summary>
@@ -132,7 +153,7 @@
     <published>2024-03-18T16:08:40.000Z</published>
     <updated>2024-03-18T16:08:40.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#%E5%9B%BE%E5%83%8F%E8%AF%86%E5%88%AB">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#图像识别">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己学习图像识别的过程</summary>
@@ -149,13 +170,34 @@
   </entry>
   
   <entry>
+    <title>工程实践：PCB焊接技巧</title>
+    <link href="https://www.adunas.top/posts/20240318zk.html"/>
+    <id>https://www.adunas.top/posts/20240318zk.html</id>
+    <published>2024-03-18T06:46:23.000Z</published>
+    <updated>2024-03-18T06:46:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#PCB焊接技巧">工程实践导航</a></h1>]]></content>
+    
+    
+    <summary type="html">🍱本文总结自己的PCB焊接技巧</summary>
+    
+    
+    
+    <category term="工程实践" scheme="https://www.adunas.top/categories/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/"/>
+    
+    
+    <category term="PCB焊接技巧" scheme="https://www.adunas.top/tags/PCB%E7%84%8A%E6%8E%A5%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
     <title>工程实践：GNSS接收机</title>
     <link href="https://www.adunas.top/posts/20240318zj.html"/>
     <id>https://www.adunas.top/posts/20240318zj.html</id>
     <published>2024-03-18T06:46:23.000Z</published>
     <updated>2024-03-18T06:46:23.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#GNSS%E6%8E%A5%E6%94%B6%E6%9C%BA">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#GNSS接收机">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己学习制作GNSS接收机的过程</summary>
@@ -182,7 +224,7 @@
     <published>2024-03-18T06:46:23.000Z</published>
     <updated>2024-03-18T06:46:23.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#%E4%BA%91%E5%8F%B0%E6%9C%BA%E6%A2%B0%E8%87%82">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#云台机械臂">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己玩儿云台机械臂的内容</summary>
@@ -205,7 +247,7 @@
     <published>2024-03-18T06:46:23.000Z</published>
     <updated>2024-03-18T06:46:23.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#%E5%B9%B3%E8%A1%A1%E8%BD%A6">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#平衡车">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己手动搭建平衡车的过程</summary>
@@ -228,7 +270,7 @@
     <published>2024-03-18T06:46:23.000Z</published>
     <updated>2024-03-18T06:46:23.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#%E9%81%A5%E6%8E%A7%E6%89%8B%E6%9F%84">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#遥控手柄">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己手动制作遥控手柄的过程</summary>
@@ -249,34 +291,13 @@
   </entry>
   
   <entry>
-    <title>工程实践：PCB焊接技巧</title>
-    <link href="https://www.adunas.top/posts/20240318zk.html"/>
-    <id>https://www.adunas.top/posts/20240318zk.html</id>
-    <published>2024-03-18T06:46:23.000Z</published>
-    <updated>2024-03-18T06:46:23.000Z</updated>
-    
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#PCB%E7%84%8A%E6%8E%A5%E6%8A%80%E5%B7%A7">工程实践导航</a></h1>]]></content>
-    
-    
-    <summary type="html">🍱本文总结自己的PCB焊接技巧</summary>
-    
-    
-    
-    <category term="工程实践" scheme="https://www.adunas.top/categories/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/"/>
-    
-    
-    <category term="PCB焊接技巧" scheme="https://www.adunas.top/tags/PCB%E7%84%8A%E6%8E%A5%E6%8A%80%E5%B7%A7/"/>
-    
-  </entry>
-  
-  <entry>
     <title>工程实践：无人船</title>
     <link href="https://www.adunas.top/posts/20240318zh.html"/>
     <id>https://www.adunas.top/posts/20240318zh.html</id>
     <published>2024-03-18T06:35:35.000Z</published>
     <updated>2024-03-18T06:35:35.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#%E6%97%A0%E4%BA%BA%E8%88%B9">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#无人船">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己手动搭建无人船的过程</summary>
@@ -303,7 +324,7 @@
     <published>2024-03-18T06:34:07.000Z</published>
     <updated>2024-03-18T06:34:07.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#%E6%97%A0%E4%BA%BA%E6%9C%BA">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#无人机">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己手动搭建无人机的过程</summary>
@@ -330,7 +351,7 @@
     <published>2024-03-18T06:22:39.000Z</published>
     <updated>2024-03-18T06:22:39.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#%E6%99%BA%E8%83%BD%E8%BD%A6">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#智能车">工程实践导航</a></h1>]]></content>
     
     
     <summary type="html">🍱本文记录自己手动搭建智能车的过程</summary>
@@ -357,7 +378,7 @@
     <published>2024-03-18T03:56:30.000Z</published>
     <updated>2024-03-18T03:56:30.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#Android">系统软件导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="系统软件导航"><ahref="./20240317b.html#Android">系统软件导航</a></h1>]]></content>
     
     
     <summary type="html">🍰本文记录操作系统 Android 的使用技巧</summary>
@@ -380,7 +401,7 @@
     <published>2024-03-18T03:54:02.000Z</published>
     <updated>2024-03-18T03:54:02.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#IOS">系统软件导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="系统软件导航"><ahref="./20240317b.html#IOS">系统软件导航</a></h1>]]></content>
     
     
     <summary type="html">🍰本文记录操作系统 IOS 的使用技巧</summary>
@@ -403,7 +424,7 @@
     <published>2024-03-18T03:51:09.000Z</published>
     <updated>2024-03-18T03:51:09.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#MacOS">系统软件导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="系统软件导航"><ahref="./20240317b.html#MacOS">系统软件导航</a></h1>]]></content>
     
     
     <summary type="html">🍰本文记录操作系统 MacOS 的使用技巧</summary>
@@ -426,7 +447,7 @@
     <published>2024-03-18T03:49:38.000Z</published>
     <updated>2024-03-18T03:49:38.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#Linux">系统软件导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="系统软件导航"><ahref="./20240317b.html#Linux">系统软件导航</a></h1>]]></content>
     
     
     <summary type="html">🍰本文记录操作系统 Linux 的使用技巧</summary>
@@ -449,7 +470,7 @@
     <published>2024-03-18T03:47:55.000Z</published>
     <updated>2024-03-18T03:47:55.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#Windows">系统软件导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="系统软件导航"><ahref="./20240317b.html#Windows">系统软件导航</a></h1>]]></content>
     
     
     <summary type="html">🍰本文记录操作系统 Windows 的使用技巧</summary>
@@ -462,29 +483,6 @@
     <category term="软件教程" scheme="https://www.adunas.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
     
     <category term="Windows" scheme="https://www.adunas.top/tags/Windows/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>软件教程：PS</title>
-    <link href="https://www.adunas.top/posts/20240318O.html"/>
-    <id>https://www.adunas.top/posts/20240318O.html</id>
-    <published>2024-03-18T03:40:53.000Z</published>
-    <updated>2024-03-18T03:40:53.000Z</updated>
-    
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#PS">系统软件导航</a></h1>]]></content>
-    
-    
-    <summary type="html">🍰本文记录软件 PS 的使用方法</summary>
-    
-    
-    
-    <category term="系统软件" scheme="https://www.adunas.top/categories/%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6/"/>
-    
-    
-    <category term="软件教程" scheme="https://www.adunas.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="PS" scheme="https://www.adunas.top/tags/PS/"/>
     
   </entry>
   
