@@ -193,6 +193,15 @@ const ap3 = new APlayer({
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
         },
+        // 0004
+        {
+            name: 'Doxygen',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/DoxygenAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
         // 0005
         {
             name: 'estimation',
@@ -567,6 +576,15 @@ const ap3 = new APlayer({
             name: 'spatial',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/spatialAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0011
+        {
+            name: 'specify',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/specifyAdunasA.mp3',
             cover: 'cover2.jpg',
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
