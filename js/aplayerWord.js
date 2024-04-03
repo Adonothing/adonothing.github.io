@@ -519,6 +519,15 @@ const ap3 = new APlayer({
         },
         // 0009
         {
+            name: 'recursive',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/recursiveAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0009
+        {
             name: 'repository',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/repositoryAdunasA.mp3',
