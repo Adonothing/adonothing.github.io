@@ -204,6 +204,15 @@ const ap3 = new APlayer({
         },
         // 0005
         {
+            name: 'entity',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/entityAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0005
+        {
             name: 'estimation',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/estimationAdunasA.mp3',
