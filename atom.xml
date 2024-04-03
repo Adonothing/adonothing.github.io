@@ -6,7 +6,7 @@
   <link href="https://www.adunas.top/atom.xml" rel="self"/>
   
   <link href="https://www.adunas.top/"/>
-  <updated>2024-03-30T03:58:23.000Z</updated>
+  <updated>2024-04-03T00:51:35.000Z</updated>
   <id>https://www.adunas.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Doxygen</title>
+    <link href="https://www.adunas.top/posts/20240403a.html"/>
+    <id>https://www.adunas.top/posts/20240403a.html</id>
+    <published>2024-04-03T00:51:35.000Z</published>
+    <updated>2024-04-03T00:51:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1><a href="./20240221b.html#Doxygen">编程导航</a></h1><h1>学习目的</h1><p>  </p>]]></content>
+    
+    
+    <summary type="html">🥯本文为 Doxygen 的教程和学习笔记</summary>
+    
+    
+    
+    <category term="编程" scheme="https://www.adunas.top/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+    <category term="Doxygen" scheme="https://www.adunas.top/tags/Doxygen/"/>
+    
+  </entry>
   
   <entry>
     <title>正则表达式</title>
@@ -117,9 +138,9 @@
     <category term="系统软件" scheme="https://www.adunas.top/categories/%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6/"/>
     
     
-    <category term="软件教程" scheme="https://www.adunas.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
-    
     <category term="Kali" scheme="https://www.adunas.top/tags/Kali/"/>
+    
+    <category term="软件教程" scheme="https://www.adunas.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -191,6 +212,27 @@
   </entry>
   
   <entry>
+    <title>工程实践：PCB焊接技巧</title>
+    <link href="https://www.adunas.top/posts/20240318zk.html"/>
+    <id>https://www.adunas.top/posts/20240318zk.html</id>
+    <published>2024-03-18T06:46:23.000Z</published>
+    <updated>2024-03-18T06:46:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#PCB%E7%84%8A%E6%8E%A5%E6%8A%80%E5%B7%A7">工程实践导航</a></h1>]]></content>
+    
+    
+    <summary type="html">🍱本文总结自己的PCB焊接技巧</summary>
+    
+    
+    
+    <category term="工程实践" scheme="https://www.adunas.top/categories/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/"/>
+    
+    
+    <category term="PCB焊接技巧" scheme="https://www.adunas.top/tags/PCB%E7%84%8A%E6%8E%A5%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
     <title>工程实践：GNSS接收机</title>
     <link href="https://www.adunas.top/posts/20240318zj.html"/>
     <id>https://www.adunas.top/posts/20240318zj.html</id>
@@ -214,27 +256,6 @@
     <category term="GNSS接收机" scheme="https://www.adunas.top/tags/GNSS%E6%8E%A5%E6%94%B6%E6%9C%BA/"/>
     
     <category term="人工智能" scheme="https://www.adunas.top/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>工程实践：PCB焊接技巧</title>
-    <link href="https://www.adunas.top/posts/20240318zk.html"/>
-    <id>https://www.adunas.top/posts/20240318zk.html</id>
-    <published>2024-03-18T06:46:23.000Z</published>
-    <updated>2024-03-18T06:46:23.000Z</updated>
-    
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#PCB%E7%84%8A%E6%8E%A5%E6%8A%80%E5%B7%A7">工程实践导航</a></h1>]]></content>
-    
-    
-    <summary type="html">🍱本文总结自己的PCB焊接技巧</summary>
-    
-    
-    
-    <category term="工程实践" scheme="https://www.adunas.top/categories/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/"/>
-    
-    
-    <category term="PCB焊接技巧" scheme="https://www.adunas.top/tags/PCB%E7%84%8A%E6%8E%A5%E6%8A%80%E5%B7%A7/"/>
     
   </entry>
   
@@ -409,9 +430,9 @@
     <category term="系统软件" scheme="https://www.adunas.top/categories/%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6/"/>
     
     
-    <category term="Android" scheme="https://www.adunas.top/tags/Android/"/>
-    
     <category term="软件教程" scheme="https://www.adunas.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Android" scheme="https://www.adunas.top/tags/Android/"/>
     
   </entry>
   
@@ -458,29 +479,6 @@
     <category term="软件教程" scheme="https://www.adunas.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
     
     <category term="MacOS" scheme="https://www.adunas.top/tags/MacOS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>操作系统教程：Linux</title>
-    <link href="https://www.adunas.top/posts/20240318q.html"/>
-    <id>https://www.adunas.top/posts/20240318q.html</id>
-    <published>2024-03-18T03:49:38.000Z</published>
-    <updated>2024-03-18T03:49:38.000Z</updated>
-    
-    <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#Linux">系统软件导航</a></h1>]]></content>
-    
-    
-    <summary type="html">🍰本文记录操作系统 Linux 的使用技巧</summary>
-    
-    
-    
-    <category term="系统软件" scheme="https://www.adunas.top/categories/%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6/"/>
-    
-    
-    <category term="软件教程" scheme="https://www.adunas.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="Linux" scheme="https://www.adunas.top/tags/Linux/"/>
     
   </entry>
   

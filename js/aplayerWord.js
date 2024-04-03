@@ -211,6 +211,15 @@ const ap3 = new APlayer({
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
         },
+        // 0005
+        {
+            name: 'expert',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/expertAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
         // 0006
         {
             name: 'facilitate',
@@ -738,6 +747,15 @@ const ap3 = new APlayer({
             name: 'velocity',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/velocityAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0013
+        {
+            name: 'wizard',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/wizardAdunasA.mp3',
             cover: 'cover2.jpg',
             //lrc: 'lrc1.lrc',
             theme: '#46718b'
