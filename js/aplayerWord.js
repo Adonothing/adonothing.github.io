@@ -645,6 +645,15 @@ const ap3 = new APlayer({
         },
         // 0012
         {
+            name: 'synopsis',
+            artist: 'Adunas',
+            url: 'https://picture.adunas.top/Audio/English/synopsisAdunasA.mp3',
+            cover: 'cover2.jpg',
+            //lrc: 'lrc1.lrc',
+            theme: '#46718b'
+        },
+        // 0012
+        {
             name: 'temporal',
             artist: 'Adunas',
             url: 'https://picture.adunas.top/Audio/English/temporalAdunasA.mp3',
