@@ -3186,10 +3186,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://picture.adunas.top/Program/Sparkle-3840x2160.png);
-    --darkmode-bg: url(https://picture.adunas.top/Program/Sparkle-3840x2160.png);
-    --mobileday-bg: url(https://picture.adunas.top/Program/Sparkle-1215x2160.png);
-    --mobilenight-bg: url(https://picture.adunas.top/Program/Sparkle-1215x2160.png);
+    --default-bg: url(https://picture.adunas.top/People/HanYiA.jpg);
+    --darkmode-bg: url(https://picture.adunas.top/People/HanYiA.jpg);
+    --mobileday-bg: url(https://picture.adunas.top/People/HanYiB.jpg);
+    --mobilenight-bg: url(https://picture.adunas.top/People/HanYiB.jpg);
   }`;
 }
 // 切换背景主函数
