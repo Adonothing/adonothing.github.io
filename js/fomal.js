@@ -1284,7 +1284,7 @@ function share_() {
     // 截取标题
     var title = document.title;
     var subTitle = title.endsWith("| Adunas🍀") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('Adunas🍀の异世界分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    navigator.clipboard.writeText('Adunas🍀分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
     new Vue({
       data: function () {
         this.$notify({
@@ -3186,8 +3186,8 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://picture.adunas.top/People/HanYiA.jpg);
-    --darkmode-bg: url(https://picture.adunas.top/People/HanYiA.jpg);
+    --default-bg: url(https://picture.adunas.top/DaBieShanA.jpg);
+    --darkmode-bg: url(https://picture.adunas.top/DongHuA.jpg);
     --mobileday-bg: url(https://picture.adunas.top/WHUSakuraA.jpg);
     --mobilenight-bg: url(https://picture.adunas.top/WHUSakuraB.jpg);
   }`;
