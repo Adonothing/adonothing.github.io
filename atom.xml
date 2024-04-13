@@ -277,25 +277,29 @@
   </entry>
   
   <entry>
-    <title>工程实践：云台机械臂</title>
-    <link href="https://www.adunas.top/posts/20240318zl.html"/>
-    <id>https://www.adunas.top/posts/20240318zl.html</id>
+    <title>工程实践：GNSS接收机</title>
+    <link href="https://www.adunas.top/posts/20240318zj.html"/>
+    <id>https://www.adunas.top/posts/20240318zj.html</id>
     <published>2024-03-18T06:46:23.000Z</published>
     <updated>2024-03-18T06:46:23.000Z</updated>
     
-    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#云台机械臂">工程实践导航</a></h1>]]></content>
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#GNSS接收机">工程实践导航</a></h1>]]></content>
     
     
-    <summary type="html">🍱本文记录自己玩儿云台机械臂的内容</summary>
+    <summary type="html">🍱本文记录自己学习制作GNSS接收机的过程</summary>
     
     
     
     <category term="工程实践" scheme="https://www.adunas.top/categories/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/"/>
     
     
+    <category term="导航" scheme="https://www.adunas.top/tags/%E5%AF%BC%E8%88%AA/"/>
+    
     <category term="自动化" scheme="https://www.adunas.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
     
-    <category term="云台机械臂" scheme="https://www.adunas.top/tags/%E4%BA%91%E5%8F%B0%E6%9C%BA%E6%A2%B0%E8%87%82/"/>
+    <category term="GNSS接收机" scheme="https://www.adunas.top/tags/GNSS%E6%8E%A5%E6%94%B6%E6%9C%BA/"/>
+    
+    <category term="人工智能" scheme="https://www.adunas.top/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
   </entry>
   
@@ -344,6 +348,29 @@
   </entry>
   
   <entry>
+    <title>工程实践：云台机械臂</title>
+    <link href="https://www.adunas.top/posts/20240318zl.html"/>
+    <id>https://www.adunas.top/posts/20240318zl.html</id>
+    <published>2024-03-18T06:46:23.000Z</published>
+    <updated>2024-03-18T06:46:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#云台机械臂">工程实践导航</a></h1>]]></content>
+    
+    
+    <summary type="html">🍱本文记录自己玩儿云台机械臂的内容</summary>
+    
+    
+    
+    <category term="工程实践" scheme="https://www.adunas.top/categories/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/"/>
+    
+    
+    <category term="自动化" scheme="https://www.adunas.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    
+    <category term="云台机械臂" scheme="https://www.adunas.top/tags/%E4%BA%91%E5%8F%B0%E6%9C%BA%E6%A2%B0%E8%87%82/"/>
+    
+  </entry>
+  
+  <entry>
     <title>工程实践：遥控手柄</title>
     <link href="https://www.adunas.top/posts/20240318zi.html"/>
     <id>https://www.adunas.top/posts/20240318zi.html</id>
@@ -360,40 +387,13 @@
     <category term="工程实践" scheme="https://www.adunas.top/categories/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/"/>
     
     
-    <category term="自动化" scheme="https://www.adunas.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
-    
     <category term="导航" scheme="https://www.adunas.top/tags/%E5%AF%BC%E8%88%AA/"/>
+    
+    <category term="自动化" scheme="https://www.adunas.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
     
     <category term="人工智能" scheme="https://www.adunas.top/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
     <category term="遥控手柄" scheme="https://www.adunas.top/tags/%E9%81%A5%E6%8E%A7%E6%89%8B%E6%9F%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>工程实践：GNSS接收机</title>
-    <link href="https://www.adunas.top/posts/20240318zj.html"/>
-    <id>https://www.adunas.top/posts/20240318zj.html</id>
-    <published>2024-03-18T06:46:23.000Z</published>
-    <updated>2024-03-18T06:46:23.000Z</updated>
-    
-    <content type="html"><![CDATA[<div class="note info flat"><ol type="1"><li>链接：<a href=""></a>。</li></ol></div><h1 id="工程实践导航"><ahref="./20240318zf.html#GNSS接收机">工程实践导航</a></h1>]]></content>
-    
-    
-    <summary type="html">🍱本文记录自己学习制作GNSS接收机的过程</summary>
-    
-    
-    
-    <category term="工程实践" scheme="https://www.adunas.top/categories/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/"/>
-    
-    
-    <category term="自动化" scheme="https://www.adunas.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
-    
-    <category term="导航" scheme="https://www.adunas.top/tags/%E5%AF%BC%E8%88%AA/"/>
-    
-    <category term="人工智能" scheme="https://www.adunas.top/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
-    
-    <category term="GNSS接收机" scheme="https://www.adunas.top/tags/GNSS%E6%8E%A5%E6%94%B6%E6%9C%BA/"/>
     
   </entry>
   
@@ -414,13 +414,13 @@
     <category term="工程实践" scheme="https://www.adunas.top/categories/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/"/>
     
     
-    <category term="自动化" scheme="https://www.adunas.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
-    
     <category term="导航" scheme="https://www.adunas.top/tags/%E5%AF%BC%E8%88%AA/"/>
     
-    <category term="无人船" scheme="https://www.adunas.top/tags/%E6%97%A0%E4%BA%BA%E8%88%B9/"/>
+    <category term="自动化" scheme="https://www.adunas.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
     
     <category term="人工智能" scheme="https://www.adunas.top/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
+    
+    <category term="无人船" scheme="https://www.adunas.top/tags/%E6%97%A0%E4%BA%BA%E8%88%B9/"/>
     
   </entry>
   
@@ -441,9 +441,9 @@
     <category term="工程实践" scheme="https://www.adunas.top/categories/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/"/>
     
     
-    <category term="自动化" scheme="https://www.adunas.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
-    
     <category term="导航" scheme="https://www.adunas.top/tags/%E5%AF%BC%E8%88%AA/"/>
+    
+    <category term="自动化" scheme="https://www.adunas.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
     
     <category term="人工智能" scheme="https://www.adunas.top/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
@@ -468,9 +468,9 @@
     <category term="工程实践" scheme="https://www.adunas.top/categories/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/"/>
     
     
-    <category term="自动化" scheme="https://www.adunas.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
-    
     <category term="导航" scheme="https://www.adunas.top/tags/%E5%AF%BC%E8%88%AA/"/>
+    
+    <category term="自动化" scheme="https://www.adunas.top/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
     
     <category term="人工智能" scheme="https://www.adunas.top/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
     
