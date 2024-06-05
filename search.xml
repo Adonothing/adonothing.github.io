@@ -644,9 +644,9 @@
       
         <tags>
             
-            <tag> 软件教程 </tag>
-            
             <tag> Kali </tag>
+            
+            <tag> 软件教程 </tag>
             
         </tags>
       
@@ -734,6 +734,62 @@
     
     
     <entry>
+      <title>工程实践：GNSS接收机</title>
+      <link href="/posts/20240318zj.html"/>
+      <url>/posts/20240318zj.html</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#GNSS%E6%8E%A5%E6%94%B6%E6%9C%BA">工程实践导航</a></h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工程实践 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 导航 </tag>
+            
+            <tag> 自动化 </tag>
+            
+            <tag> GNSS接收机 </tag>
+            
+            <tag> 人工智能 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>工程实践：PCB焊接技巧</title>
+      <link href="/posts/20240318zk.html"/>
+      <url>/posts/20240318zk.html</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#PCB%E7%84%8A%E6%8E%A5%E6%8A%80%E5%B7%A7">工程实践导航</a></h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工程实践 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PCB焊接技巧 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>工程实践：云台机械臂</title>
       <link href="/posts/20240318zl.html"/>
       <url>/posts/20240318zl.html</url>
@@ -753,37 +809,6 @@
             <tag> 自动化 </tag>
             
             <tag> 云台机械臂 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>工程实践：GNSS接收机</title>
-      <link href="/posts/20240318zj.html"/>
-      <url>/posts/20240318zj.html</url>
-      
-        <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#GNSS%E6%8E%A5%E6%94%B6%E6%9C%BA">工程实践导航</a></h1>]]></content>
-      
-      
-      <categories>
-          
-          <category> 工程实践 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 自动化 </tag>
-            
-            <tag> 导航 </tag>
-            
-            <tag> GNSS接收机 </tag>
-            
-            <tag> 人工智能 </tag>
             
         </tags>
       
@@ -819,31 +844,6 @@
     
     
     <entry>
-      <title>工程实践：PCB焊接技巧</title>
-      <link href="/posts/20240318zk.html"/>
-      <url>/posts/20240318zk.html</url>
-      
-        <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240318zf.html#PCB%E7%84%8A%E6%8E%A5%E6%8A%80%E5%B7%A7">工程实践导航</a></h1>]]></content>
-      
-      
-      <categories>
-          
-          <category> 工程实践 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PCB焊接技巧 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>工程实践：遥控手柄</title>
       <link href="/posts/20240318zi.html"/>
       <url>/posts/20240318zi.html</url>
@@ -860,9 +860,9 @@
       
         <tags>
             
-            <tag> 自动化 </tag>
-            
             <tag> 导航 </tag>
+            
+            <tag> 自动化 </tag>
             
             <tag> 人工智能 </tag>
             
@@ -891,9 +891,9 @@
       
         <tags>
             
-            <tag> 自动化 </tag>
-            
             <tag> 导航 </tag>
+            
+            <tag> 自动化 </tag>
             
             <tag> 人工智能 </tag>
             
@@ -922,9 +922,9 @@
       
         <tags>
             
-            <tag> 自动化 </tag>
-            
             <tag> 导航 </tag>
+            
+            <tag> 自动化 </tag>
             
             <tag> 人工智能 </tag>
             
@@ -953,9 +953,9 @@
       
         <tags>
             
-            <tag> 自动化 </tag>
-            
             <tag> 导航 </tag>
+            
+            <tag> 自动化 </tag>
             
             <tag> 人工智能 </tag>
             
@@ -1011,9 +1011,9 @@
       
         <tags>
             
-            <tag> IOS </tag>
-            
             <tag> 软件教程 </tag>
+            
+            <tag> IOS </tag>
             
         </tags>
       
@@ -1130,6 +1130,33 @@
     
     
     <entry>
+      <title>软件教程：Multisim</title>
+      <link href="/posts/20240318m.html"/>
+      <url>/posts/20240318m.html</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#Multisim">系统软件导航</a></h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 系统软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件教程 </tag>
+            
+            <tag> Multisim </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>软件教程：Keil</title>
       <link href="/posts/20240318l.html"/>
       <url>/posts/20240318l.html</url>
@@ -1176,33 +1203,6 @@
             <tag> 软件教程 </tag>
             
             <tag> Quartus II </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>软件教程：Multisim</title>
-      <link href="/posts/20240318m.html"/>
-      <url>/posts/20240318m.html</url>
-      
-        <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#Multisim">系统软件导航</a></h1>]]></content>
-      
-      
-      <categories>
-          
-          <category> 系统软件 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件教程 </tag>
-            
-            <tag> Multisim </tag>
             
         </tags>
       
@@ -1390,33 +1390,6 @@
     
     
     <entry>
-      <title>软件教程：Cadence</title>
-      <link href="/posts/20240318d.html"/>
-      <url>/posts/20240318d.html</url>
-      
-        <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#Cadence">系统软件导航</a></h1>]]></content>
-      
-      
-      <categories>
-          
-          <category> 系统软件 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件教程 </tag>
-            
-            <tag> Cadence </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>软件教程：KiCad</title>
       <link href="/posts/20240318c.html"/>
       <url>/posts/20240318c.html</url>
@@ -1436,6 +1409,33 @@
             <tag> 软件教程 </tag>
             
             <tag> KiCad </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>软件教程：Cadence</title>
+      <link href="/posts/20240318d.html"/>
+      <url>/posts/20240318d.html</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#Cadence">系统软件导航</a></h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 系统软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件教程 </tag>
+            
+            <tag> Cadence </tag>
             
         </tags>
       
@@ -1552,31 +1552,6 @@
     
     
     <entry>
-      <title>软件教程：Visual Studio</title>
-      <link href="/posts/20240317c.html"/>
-      <url>/posts/20240317c.html</url>
-      
-        <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#VisualStudio">系统软件导航</a></h1><h1>变量内存</h1><ol><li>打断点，在 debug 时，选择：调试-窗口-内存，输入相关地址即可。</li><li>同时可以选择：调试-窗口-自动窗口，可以查看变量名称、值和类型。会显示数组和指针的地址，而整型变量的地址不会显示。</li><li>将数组和指针的变量符号复制粘贴到内存窗口会自动跳转正确的内存地址，并显示值。</li><li>而整型变量的地址会出现错误，正确的方法是使用取地址符号 <code>&amp;</code> 进行打印。</li></ol><h1>反汇编</h1><ol><li>打断点，在 debug 时，在代码栏鼠标右键-转到反汇编，即可查看汇编代码。</li></ol><h1>sprintf报错</h1><p>报错内容：</p><figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">严重性代码说明项目文件行禁止显示状态详细信息</span><br><span class="line">错误C4996<span class="symbol">&#x27;sprintf</span>&#x27;: This function or variable may be <span class="keyword">unsafe</span>. Consider using sprintf_s instead. To disable deprecation, <span class="keyword">use</span> _CRT_SECURE_NO_WARNINGS. See online help <span class="keyword">for</span> <span class="title class_">details</span>.VS2022CP:\ProgramLearn\Test\VS\VS2022\VS2022C\VS2022C\VS2022C.c<span class="number">11</span></span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">解决方法：</span><br><span class="line"></span><br><span class="line">右键工程名<span class="punctuation">-&gt;</span>属性<span class="punctuation">-&gt;</span>C/C++<span class="punctuation">-&gt;</span>预处理器<span class="punctuation">-&gt;</span>预处理器定义，编辑右边输入框加入:</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>_CRT_SECURE_NO_WARNINGS</p><pre><code></code></pre>]]></content>
-      
-      
-      <categories>
-          
-          <category> 系统软件 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件教程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>软件教程：VSCode</title>
       <link href="/posts/20240317a.html"/>
       <url>/posts/20240317a.html</url>
@@ -1594,6 +1569,31 @@
         <tags>
             
             <tag> VSCode </tag>
+            
+            <tag> 软件教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>软件教程：Visual Studio</title>
+      <link href="/posts/20240317c.html"/>
+      <url>/posts/20240317c.html</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat"><ol><li>链接：<a href=""></a>。</li></ol></div><h1><a href="./20240317b.html#VisualStudio">系统软件导航</a></h1><h1>变量内存</h1><ol><li>打断点，在 debug 时，选择：调试-窗口-内存，输入相关地址即可。</li><li>同时可以选择：调试-窗口-自动窗口，可以查看变量名称、值和类型。会显示数组和指针的地址，而整型变量的地址不会显示。</li><li>将数组和指针的变量符号复制粘贴到内存窗口会自动跳转正确的内存地址，并显示值。</li><li>而整型变量的地址会出现错误，正确的方法是使用取地址符号 <code>&amp;</code> 进行打印。</li></ol><h1>反汇编</h1><ol><li>打断点，在 debug 时，在代码栏鼠标右键-转到反汇编，即可查看汇编代码。</li></ol><h1>sprintf报错</h1><p>报错内容：</p><figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">严重性代码说明项目文件行禁止显示状态详细信息</span><br><span class="line">错误C4996<span class="symbol">&#x27;sprintf</span>&#x27;: This function or variable may be <span class="keyword">unsafe</span>. Consider using sprintf_s instead. To disable deprecation, <span class="keyword">use</span> _CRT_SECURE_NO_WARNINGS. See online help <span class="keyword">for</span> <span class="title class_">details</span>.VS2022CP:\ProgramLearn\Test\VS\VS2022\VS2022C\VS2022C\VS2022C.c<span class="number">11</span></span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">解决方法：</span><br><span class="line"></span><br><span class="line">右键工程名<span class="punctuation">-&gt;</span>属性<span class="punctuation">-&gt;</span>C/C++<span class="punctuation">-&gt;</span>预处理器<span class="punctuation">-&gt;</span>预处理器定义，编辑右边输入框加入:</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>_CRT_SECURE_NO_WARNINGS</p><pre><code></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 系统软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
             
             <tag> 软件教程 </tag>
             
@@ -2317,9 +2317,9 @@
       
         <tags>
             
-            <tag> JavaScript </tag>
-            
             <tag> js </tag>
+            
+            <tag> JavaScript </tag>
             
         </tags>
       
@@ -2346,11 +2346,11 @@
             
             <tag> html </tag>
             
-            <tag> js </tag>
-            
             <tag> 前端 </tag>
             
             <tag> CSS </tag>
+            
+            <tag> js </tag>
             
         </tags>
       
@@ -2448,7 +2448,7 @@
       <link href="/posts/20231207a.html"/>
       <url>/posts/20231207a.html</url>
       
-        <content type="html"><![CDATA[<div class="note blue no-icon flat"><p>参考：</p><ol><li><a href="https://guodongblog.com/posts/91597d56b19f/">Hexo-Butterfly音乐播放器的添加</a></li><li><a href="https://github.com/MoePlayer/hexo-tag-aplayer">hexo-tag-aplayer的GitHub地址</a></li><li><a href="https://aplayer.js.org/#/home">aplayer官方说明文档</a></li><li><a href="https://butterfly.js.org/posts/507c070f/">butterfly官方教程</a></li></ol></div><div class="note info flat"><p>无法在butterfly外挂标签中使用该插件，但是单独使用没有问题。</p></div><h1><a href="./20240221c.html#%E9%9F%B3%E9%A2%91%E6%95%99%E7%A8%8B">博客搭建教程导航</a></h1><h1>基础介绍</h1><p>  Hexo 博客的音频插件名称为 <code>hexo-tag-aplayer</code>，它支持常用的播放器为 <code>APlayer</code> 和 其他衍生的播放器 <code>MetingJS</code>。<code>APlayer</code> 一般用于播放自定义的音频。<code>MetingJS</code> 用于各大主流的音乐平台。要使用音频插件，在配置文件中要打开相关开关，或在文章开头进行使能。而在markdown中使用该工具是，有两套语言都可以写，一套是Html标签，一套是 <code>hexo-tag-aplayer</code> 自带的。具体方法如下：</p><h1>配置环境</h1><h2 id="安装插件">安装插件</h2><p>hexo-tag-aplayer：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure><p>APlayer：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install aplayer --save</span><br></pre></td></tr></table></figure><h2 id="Hexo博客设置">Hexo博客设置</h2><ol><li>修改_config.yml文件：</li></ol><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">aplayer:</span></span><br><span class="line">  <span class="attr">meting:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">asset_inject:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure><div class="note warning flat"><ul><li>如果使用 <code>APlayer</code> 播放器，则 <code>asset_inject</code> 须设置为 <code>true</code> 。</li><li>如果只使用 <code>MetingJS</code> 播放器，则 <code>asset_inject</code> 可以设置为 <code>false</code> 。</li><li><code>asset_inject</code> 设置为 <code>true</code>，否会导致 <code>butterfly</code> 网页主页面渲染异常，如无法加载背景等问题。目前没有办法解决。此时会给相关文件自动加入和 aplayer相关的 css 和 js 依赖。但是也会在 js 文件中的头部引入多余的代码造成错误。此时想要在文章中使用 aplayer 需要通过其他途径，后面的内容会提到。</li></ul></div><ol><li>修改_config.butterfly.yml文件：</li></ol><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Inject the css and script (aplayer/meting)</span></span><br><span class="line"><span class="attr">aplayerInject:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure><ol start="3"><li>文章开头添加：</li></ol><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">aplayer:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><h1>APlayer</h1><h2 id="方式一：标签法">方式一：标签法</h2><div class="tabs" id="aplayer"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#aplayer-1">插件语法</button></li><li class="tab"><button type="button" data-href="#aplayer-2">配置参数</button></li><li class="tab"><button type="button" data-href="#aplayer-3">示例源码</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="aplayer-1"><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayer title author url [picture<span class="emphasis">_url, narrow, autoplay, width:xxx, lrc:xxx] %&#125;</span></span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="aplayer-2"><ul><li><code>title</code> : 曲目标题</li><li><code>author</code>: 曲目作者</li><li><code>url</code>: 音乐文件 URL 地址</li><li><code>picture_url</code>: (可选) 音乐对应的图片地址</li><li><code>narrow</code>: （可选）播放器袖珍风格</li><li><code>autoplay</code>:  (可选) 自动播放，移动端浏览器暂时不支持此功能</li><li><code>width:xxx</code>: (可选) 播放器宽度 (默认: 100%)</li><li><code>lrc:xxx</code>: （可选）歌词文件 URL 地址</li></ul><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="aplayer-3"><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">以下在 <span class="code">`butterfly`</span> 主题下无法渲染：</span><br><span class="line">&#123;% aplayer &quot;title&quot; &quot;author&quot; &quot;/audio/Lumia1020.mp3&quot; &quot;/assets/avatar.webp&quot; %&#125;</span><br><span class="line">演示文字，无意义。</span><br><span class="line">&#123;% aplayer &quot;title&quot; &quot;author&quot; &quot;/audio/Lumia1020.mp3&quot; &quot;/assets/avatar.webp&quot; %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h3 id="演示效果">演示效果</h3><p>  以下在 <code>butterfly</code> 主题下无法渲染：</p>        <div id="aplayer-CofBoncD" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-CofBoncD"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "title",              author: "author",              url: "/audio/Lumia1020.mp3",              pic: "/assets/avatar.webp",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p>演示文字，无意义。</p>        <div id="aplayer-mHSVYDwg" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-mHSVYDwg"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "title",              author: "author",              url: "/audio/Lumia1020.mp3",              pic: "/assets/avatar.webp",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p>只有当把 asset_inject 设置为 true 时可以把音频渲染成功，但是要把 public 里的 js 和 css 文件头部增加的错误代码删除，所以这不是一个好办法，那么采用下面的办法。</p><h2 id="方式二：Html">方式二：Html</h2><p>  此时已经默认会导入了 aplayer.min.css 和 aplayer.min.js 依赖。</p><p>  参照 aplayer 官网的说明，我们需要添加一个自定义的 js 文件放在 source/js/ 里，我取名为 aplayerExample.js。然后再 _config.butterfly.yml 文件中添加 js 脚本：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">defer</span> <span class="string">src=&quot;/js/aplayerExample.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># aplayerAdunas</span></span><br></pre></td></tr></table></figure><p>然后在其中写入官网提供的js内容，并修改为自己的 mp3 文件：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">const</span> <span class="string">ap</span> <span class="string">=</span> <span class="string">new</span> <span class="string">APlayer(&#123;</span></span><br><span class="line">    <span class="attr">container:</span> <span class="string">document.getElementById(&#x27;aplayerExampleA&#x27;),</span></span><br><span class="line">    <span class="attr">audio:</span> [&#123;</span><br><span class="line">        <span class="attr">name:</span> <span class="string">&#x27;name&#x27;</span>,</span><br><span class="line">        <span class="attr">artist:</span> <span class="string">&#x27;artist&#x27;</span>,</span><br><span class="line">        <span class="attr">url:</span> <span class="string">&#x27;url.mp3&#x27;</span>,</span><br><span class="line">        <span class="attr">cover:</span> <span class="string">&#x27;cover.jpg&#x27;</span></span><br><span class="line">    &#125;]</span><br><span class="line"><span class="string">&#125;);</span></span><br></pre></td></tr></table></figure><p>然后在博客中插入 Html 元素，id 名保持一致即可：</p><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% raw %&#125;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;aplayerExampleA&quot;</span>&gt;</span></span><span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure><p>演示效果如下：</p><div id="aplayerExampleA"></div><div id="aplayerExampleB"></div><p>其中 aplayerExampleB 为列表。需要注意的是，只对第一个 id 有效，使用第一个 id 后，第二个 id 也可以正常使用了，直接使用第二个 id 会报错，原因未知。</p><h2 id="全局吸底">全局吸底</h2><h3 id="方式一：Html">方式一：Html</h3><p>  这里直接在博客中引入依赖，复制粘贴过去就能使用：</p><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;% raw %&#125;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js&quot;</span>&gt;</span></span><span class="language-xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js&quot;</span>&gt;</span></span><span class="language-xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;player&quot;</span> <span class="attr">class</span>=<span class="string">&quot;aplayer aplayer-withlist aplayer-fixed&quot;</span> <span class="attr">data-id</span>=<span class="string">&quot;3025663508&quot;</span> <span class="attr">data-server</span>=<span class="string">&quot;netease&quot;</span> <span class="attr">data-type</span>=<span class="string">&quot;playlist&quot;</span> <span class="attr">data-order</span>=<span class="string">&quot;random&quot;</span> <span class="attr">data-fixed</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-listfolded</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-theme</span>=<span class="string">&quot;#2D8CF0&quot;</span>&gt;</span></span><span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script><!-- <div id="player" class="aplayer aplayer-withlist aplayer-fixed" data-id="2130694576" data-server="netease" data-type="song" data-order="random" data-fixed="true" data-listfolded="true" data-theme="#2D8CF0"></div> --><!-- <div class="aplayer no-destroy" data-id="2130694576" data-server="netease" data-type="song" data-fixed="true" data-autoplay="true"> </div> --><h1>MetingJS</h1><div class="tabs" id="列表模式"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#列表模式-1">插件语法</button></li><li class="tab"><button type="button" data-href="#列表模式-2">配置参数</button></li><li class="tab"><button type="button" data-href="#列表模式-3">示例源码</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="列表模式-1"><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% meting id server type [fixed, mini, loop, order, volume, ……] %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="列表模式-2"><table><thead><tr><th>选项</th><th>默认值</th><th>描述</th></tr></thead><tbody><tr><td>id</td><td><strong>必须值</strong></td><td>歌曲 id / 播放列表 id / 相册 id / 搜索关键字</td></tr><tr><td>server</td><td><strong>必须值</strong></td><td>音乐平台: <code>netease</code>, <code>tencent</code>, <code>kugou</code>, <code>xiami</code>, <code>baidu</code></td></tr><tr><td>type</td><td><strong>必须值</strong></td><td><code>song</code>, <code>playlist</code>, <code>album</code>, <code>search</code>, <code>artist</code></td></tr><tr><td>fixed</td><td><code>false</code></td><td>开启固定模式</td></tr><tr><td>mini</td><td><code>false</code></td><td>开启迷你模式</td></tr><tr><td>loop</td><td><code>all</code></td><td>列表循环模式：<code>all</code>, <code>one</code>,<code>none</code></td></tr><tr><td>order</td><td><code>list</code></td><td>列表播放模式： <code>list</code>, <code>random</code></td></tr><tr><td>volume</td><td>0.7</td><td>播放器音量</td></tr><tr><td>lrctype</td><td>0</td><td>歌词格式类型</td></tr><tr><td>listfolded</td><td><code>false</code></td><td>指定音乐播放列表是否折叠</td></tr><tr><td>storagename</td><td><code>metingjs</code></td><td>LocalStorage 中存储播放器设定的键名</td></tr><tr><td>autoplay</td><td><code>true</code></td><td>自动播放，移动端浏览器暂时不支持此功能</td></tr><tr><td>mutex</td><td><code>true</code></td><td>该选项开启时，如果同页面有其他 aplayer 播放，该播放器会暂停</td></tr><tr><td>listmaxheight</td><td><code>340px</code></td><td>播放列表的最大长度</td></tr><tr><td>preload</td><td><code>auto</code></td><td>音乐文件预载入模式，可选项： <code>none</code>, <code>metadata</code>, <code>auto</code></td></tr><tr><td>theme</td><td><code>#ad7a86</code></td><td>播放器风格色彩设置</td></tr></tbody></table><ol><li>在网易云音乐中创建自己的歌单，会产生一个 <code>&quot;id&quot;</code> 。例如:<ol><li><a href="https://music.163.com/#/playlist?id=2084546444">https://music.163.com/#/playlist?id=2084546444</a></li><li><a href="https://music.163.com/#/song?id=29009655">https://music.163.com/#/song?id=29009655</a></li></ol></li><li>VIP音乐只能听30s，无版权的音乐无法播放，会跳过。</li><li>自动播放时加入 <code>&quot;autoplay&quot;</code> 参数；不自动播放不加该参数，如果写 <code>&quot;autoplay = false&quot;</code> 或者 <code>&quot;autoplay:false&quot;</code> 都是错误的，会使网页渲染失败。</li></ol><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="列表模式-3"><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&amp;emsp;&amp;emsp;渲染效果中去除自动播放，以免影响网页阅读体验。</span><br><span class="line"></span><br><span class="line">迷你模式：</span><br><span class="line">&#123;% meting &quot;29009655&quot; &quot;netease&quot; &quot;song&quot; &quot;mini&quot; &quot;autoplay&quot; %&#125;</span><br><span class="line">或者：</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;aplayer no-destroy&quot;</span> <span class="attr">data-id</span>=<span class="string">&quot;29009655&quot;</span> <span class="attr">data-server</span>=<span class="string">&quot;netease&quot;</span> <span class="attr">data-type</span>=<span class="string">&quot;song&quot;</span> <span class="attr">data-mini</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-autoplay</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-lrcType</span>=<span class="string">&quot;-1&quot;</span>&gt;</span></span> <span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">单曲播放：</span><br><span class="line">&#123;% meting &quot;29009655&quot; &quot;netease&quot; &quot;song&quot; &quot;autoplay&quot; %&#125;</span><br><span class="line">或者：</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;aplayer no-destroy&quot;</span> <span class="attr">data-id</span>=<span class="string">&quot;1441758494&quot;</span> <span class="attr">data-server</span>=<span class="string">&quot;netease&quot;</span> <span class="attr">data-type</span>=<span class="string">&quot;song&quot;</span>  <span class="attr">data-autoplay</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-lrcType</span>=<span class="string">&quot;-1&quot;</span>&gt;</span></span> <span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">列表模式：</span><br><span class="line">&#123;% meting &quot;2084546444&quot; &quot;netease&quot; &quot;playlist&quot; %&#125;</span><br><span class="line">演示文字，无意义。</span><br><span class="line">&#123;% meting &quot;2084546444&quot; &quot;netease&quot; &quot;playlist&quot; &quot;autoplay&quot; &quot;mutex:false&quot; &quot;listmaxheight:340px&quot; &quot;preload:none&quot; &quot;theme:#ad7a86&quot; %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h2 id="演示效果-2">演示效果</h2><p>  渲染效果中去除自动播放，以免影响网页阅读体验。</p><p>迷你模式：</p>    <div id="aplayer-aUTUVfzN" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="29009655" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-mini="true"    ></div><p>或者：</p><div class="aplayer no-destroy" data-id="29009655" data-server="netease" data-type="song" data-mini="true" data-lrcType="-1"> </div>单曲播放：    <div id="aplayer-hVtzvXKg" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="29009655" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>或者：<div class="aplayer no-destroy" data-id="29009655" data-server="netease" data-type="song" data-lrcType="-1"> </div>列表模式：    <div id="aplayer-lYQCUMRY" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2084546444" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>演示文字，无意义。    <div id="aplayer-ktwUFHOt" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2084546444" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[<div class="note blue no-icon flat"><p>参考：</p><ol><li><a href="https://guodongblog.com/posts/91597d56b19f/">Hexo-Butterfly音乐播放器的添加</a></li><li><a href="https://github.com/MoePlayer/hexo-tag-aplayer">hexo-tag-aplayer的GitHub地址</a></li><li><a href="https://aplayer.js.org/#/home">aplayer官方说明文档</a></li><li><a href="https://butterfly.js.org/posts/507c070f/">butterfly官方教程</a></li></ol></div><div class="note info flat"><p>无法在butterfly外挂标签中使用该插件，但是单独使用没有问题。</p></div><h1><a href="./20240221c.html#%E9%9F%B3%E9%A2%91%E6%95%99%E7%A8%8B">博客搭建教程导航</a></h1><h1>基础介绍</h1><p>  Hexo 博客的音频插件名称为 <code>hexo-tag-aplayer</code>，它支持常用的播放器为 <code>APlayer</code> 和 其他衍生的播放器 <code>MetingJS</code>。<code>APlayer</code> 一般用于播放自定义的音频。<code>MetingJS</code> 用于各大主流的音乐平台。要使用音频插件，在配置文件中要打开相关开关，或在文章开头进行使能。而在markdown中使用该工具是，有两套语言都可以写，一套是Html标签，一套是 <code>hexo-tag-aplayer</code> 自带的。具体方法如下：</p><h1>配置环境</h1><h2 id="安装插件">安装插件</h2><p>hexo-tag-aplayer：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure><p>APlayer：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install aplayer --save</span><br></pre></td></tr></table></figure><h2 id="Hexo博客设置">Hexo博客设置</h2><ol><li>修改_config.yml文件：</li></ol><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">aplayer:</span></span><br><span class="line">  <span class="attr">meting:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">asset_inject:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure><div class="note warning flat"><ul><li>如果使用 <code>APlayer</code> 播放器，则 <code>asset_inject</code> 须设置为 <code>true</code> 。</li><li>如果只使用 <code>MetingJS</code> 播放器，则 <code>asset_inject</code> 可以设置为 <code>false</code> 。</li><li><code>asset_inject</code> 设置为 <code>true</code>，否会导致 <code>butterfly</code> 网页主页面渲染异常，如无法加载背景等问题。目前没有办法解决。此时会给相关文件自动加入和 aplayer相关的 css 和 js 依赖。但是也会在 js 文件中的头部引入多余的代码造成错误。此时想要在文章中使用 aplayer 需要通过其他途径，后面的内容会提到。</li></ul></div><ol><li>修改_config.butterfly.yml文件：</li></ol><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Inject the css and script (aplayer/meting)</span></span><br><span class="line"><span class="attr">aplayerInject:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure><ol start="3"><li>文章开头添加：</li></ol><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">aplayer:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><h1>APlayer</h1><h2 id="方式一：标签法">方式一：标签法</h2><div class="tabs" id="aplayer"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#aplayer-1">插件语法</button></li><li class="tab"><button type="button" data-href="#aplayer-2">配置参数</button></li><li class="tab"><button type="button" data-href="#aplayer-3">示例源码</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="aplayer-1"><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayer title author url [picture<span class="emphasis">_url, narrow, autoplay, width:xxx, lrc:xxx] %&#125;</span></span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="aplayer-2"><ul><li><code>title</code> : 曲目标题</li><li><code>author</code>: 曲目作者</li><li><code>url</code>: 音乐文件 URL 地址</li><li><code>picture_url</code>: (可选) 音乐对应的图片地址</li><li><code>narrow</code>: （可选）播放器袖珍风格</li><li><code>autoplay</code>:  (可选) 自动播放，移动端浏览器暂时不支持此功能</li><li><code>width:xxx</code>: (可选) 播放器宽度 (默认: 100%)</li><li><code>lrc:xxx</code>: （可选）歌词文件 URL 地址</li></ul><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="aplayer-3"><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">以下在 <span class="code">`butterfly`</span> 主题下无法渲染：</span><br><span class="line">&#123;% aplayer &quot;title&quot; &quot;author&quot; &quot;/audio/Lumia1020.mp3&quot; &quot;/assets/avatar.webp&quot; %&#125;</span><br><span class="line">演示文字，无意义。</span><br><span class="line">&#123;% aplayer &quot;title&quot; &quot;author&quot; &quot;/audio/Lumia1020.mp3&quot; &quot;/assets/avatar.webp&quot; %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h3 id="演示效果">演示效果</h3><p>  以下在 <code>butterfly</code> 主题下无法渲染：</p>        <div id="aplayer-ZrZuOuul" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-ZrZuOuul"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "title",              author: "author",              url: "/audio/Lumia1020.mp3",              pic: "/assets/avatar.webp",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p>演示文字，无意义。</p>        <div id="aplayer-isUCNKlu" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-isUCNKlu"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "title",              author: "author",              url: "/audio/Lumia1020.mp3",              pic: "/assets/avatar.webp",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p>只有当把 asset_inject 设置为 true 时可以把音频渲染成功，但是要把 public 里的 js 和 css 文件头部增加的错误代码删除，所以这不是一个好办法，那么采用下面的办法。</p><h2 id="方式二：Html">方式二：Html</h2><p>  此时已经默认会导入了 aplayer.min.css 和 aplayer.min.js 依赖。</p><p>  参照 aplayer 官网的说明，我们需要添加一个自定义的 js 文件放在 source/js/ 里，我取名为 aplayerExample.js。然后再 _config.butterfly.yml 文件中添加 js 脚本：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="string">&lt;script</span> <span class="string">defer</span> <span class="string">src=&quot;/js/aplayerExample.js&quot;&gt;&lt;/script&gt;</span> <span class="comment"># aplayerAdunas</span></span><br></pre></td></tr></table></figure><p>然后在其中写入官网提供的js内容，并修改为自己的 mp3 文件：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">const</span> <span class="string">ap</span> <span class="string">=</span> <span class="string">new</span> <span class="string">APlayer(&#123;</span></span><br><span class="line">    <span class="attr">container:</span> <span class="string">document.getElementById(&#x27;aplayerExampleA&#x27;),</span></span><br><span class="line">    <span class="attr">audio:</span> [&#123;</span><br><span class="line">        <span class="attr">name:</span> <span class="string">&#x27;name&#x27;</span>,</span><br><span class="line">        <span class="attr">artist:</span> <span class="string">&#x27;artist&#x27;</span>,</span><br><span class="line">        <span class="attr">url:</span> <span class="string">&#x27;url.mp3&#x27;</span>,</span><br><span class="line">        <span class="attr">cover:</span> <span class="string">&#x27;cover.jpg&#x27;</span></span><br><span class="line">    &#125;]</span><br><span class="line"><span class="string">&#125;);</span></span><br></pre></td></tr></table></figure><p>然后在博客中插入 Html 元素，id 名保持一致即可：</p><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% raw %&#125;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;aplayerExampleA&quot;</span>&gt;</span></span><span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure><p>演示效果如下：</p><div id="aplayerExampleA"></div><div id="aplayerExampleB"></div><p>其中 aplayerExampleB 为列表。需要注意的是，只对第一个 id 有效，使用第一个 id 后，第二个 id 也可以正常使用了，直接使用第二个 id 会报错，原因未知。</p><h2 id="全局吸底">全局吸底</h2><h3 id="方式一：Html">方式一：Html</h3><p>  这里直接在博客中引入依赖，复制粘贴过去就能使用：</p><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;% raw %&#125;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js&quot;</span>&gt;</span></span><span class="language-xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js&quot;</span>&gt;</span></span><span class="language-xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;player&quot;</span> <span class="attr">class</span>=<span class="string">&quot;aplayer aplayer-withlist aplayer-fixed&quot;</span> <span class="attr">data-id</span>=<span class="string">&quot;3025663508&quot;</span> <span class="attr">data-server</span>=<span class="string">&quot;netease&quot;</span> <span class="attr">data-type</span>=<span class="string">&quot;playlist&quot;</span> <span class="attr">data-order</span>=<span class="string">&quot;random&quot;</span> <span class="attr">data-fixed</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-listfolded</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-theme</span>=<span class="string">&quot;#2D8CF0&quot;</span>&gt;</span></span><span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script><!-- <div id="player" class="aplayer aplayer-withlist aplayer-fixed" data-id="2130694576" data-server="netease" data-type="song" data-order="random" data-fixed="true" data-listfolded="true" data-theme="#2D8CF0"></div> --><!-- <div class="aplayer no-destroy" data-id="2130694576" data-server="netease" data-type="song" data-fixed="true" data-autoplay="true"> </div> --><h1>MetingJS</h1><div class="tabs" id="列表模式"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#列表模式-1">插件语法</button></li><li class="tab"><button type="button" data-href="#列表模式-2">配置参数</button></li><li class="tab"><button type="button" data-href="#列表模式-3">示例源码</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="列表模式-1"><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% meting id server type [fixed, mini, loop, order, volume, ……] %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="列表模式-2"><table><thead><tr><th>选项</th><th>默认值</th><th>描述</th></tr></thead><tbody><tr><td>id</td><td><strong>必须值</strong></td><td>歌曲 id / 播放列表 id / 相册 id / 搜索关键字</td></tr><tr><td>server</td><td><strong>必须值</strong></td><td>音乐平台: <code>netease</code>, <code>tencent</code>, <code>kugou</code>, <code>xiami</code>, <code>baidu</code></td></tr><tr><td>type</td><td><strong>必须值</strong></td><td><code>song</code>, <code>playlist</code>, <code>album</code>, <code>search</code>, <code>artist</code></td></tr><tr><td>fixed</td><td><code>false</code></td><td>开启固定模式</td></tr><tr><td>mini</td><td><code>false</code></td><td>开启迷你模式</td></tr><tr><td>loop</td><td><code>all</code></td><td>列表循环模式：<code>all</code>, <code>one</code>,<code>none</code></td></tr><tr><td>order</td><td><code>list</code></td><td>列表播放模式： <code>list</code>, <code>random</code></td></tr><tr><td>volume</td><td>0.7</td><td>播放器音量</td></tr><tr><td>lrctype</td><td>0</td><td>歌词格式类型</td></tr><tr><td>listfolded</td><td><code>false</code></td><td>指定音乐播放列表是否折叠</td></tr><tr><td>storagename</td><td><code>metingjs</code></td><td>LocalStorage 中存储播放器设定的键名</td></tr><tr><td>autoplay</td><td><code>true</code></td><td>自动播放，移动端浏览器暂时不支持此功能</td></tr><tr><td>mutex</td><td><code>true</code></td><td>该选项开启时，如果同页面有其他 aplayer 播放，该播放器会暂停</td></tr><tr><td>listmaxheight</td><td><code>340px</code></td><td>播放列表的最大长度</td></tr><tr><td>preload</td><td><code>auto</code></td><td>音乐文件预载入模式，可选项： <code>none</code>, <code>metadata</code>, <code>auto</code></td></tr><tr><td>theme</td><td><code>#ad7a86</code></td><td>播放器风格色彩设置</td></tr></tbody></table><ol><li>在网易云音乐中创建自己的歌单，会产生一个 <code>&quot;id&quot;</code> 。例如:<ol><li><a href="https://music.163.com/#/playlist?id=2084546444">https://music.163.com/#/playlist?id=2084546444</a></li><li><a href="https://music.163.com/#/song?id=29009655">https://music.163.com/#/song?id=29009655</a></li></ol></li><li>VIP音乐只能听30s，无版权的音乐无法播放，会跳过。</li><li>自动播放时加入 <code>&quot;autoplay&quot;</code> 参数；不自动播放不加该参数，如果写 <code>&quot;autoplay = false&quot;</code> 或者 <code>&quot;autoplay:false&quot;</code> 都是错误的，会使网页渲染失败。</li></ol><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="列表模式-3"><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&amp;emsp;&amp;emsp;渲染效果中去除自动播放，以免影响网页阅读体验。</span><br><span class="line"></span><br><span class="line">迷你模式：</span><br><span class="line">&#123;% meting &quot;29009655&quot; &quot;netease&quot; &quot;song&quot; &quot;mini&quot; &quot;autoplay&quot; %&#125;</span><br><span class="line">或者：</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;aplayer no-destroy&quot;</span> <span class="attr">data-id</span>=<span class="string">&quot;29009655&quot;</span> <span class="attr">data-server</span>=<span class="string">&quot;netease&quot;</span> <span class="attr">data-type</span>=<span class="string">&quot;song&quot;</span> <span class="attr">data-mini</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-autoplay</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-lrcType</span>=<span class="string">&quot;-1&quot;</span>&gt;</span></span> <span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">单曲播放：</span><br><span class="line">&#123;% meting &quot;29009655&quot; &quot;netease&quot; &quot;song&quot; &quot;autoplay&quot; %&#125;</span><br><span class="line">或者：</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;aplayer no-destroy&quot;</span> <span class="attr">data-id</span>=<span class="string">&quot;1441758494&quot;</span> <span class="attr">data-server</span>=<span class="string">&quot;netease&quot;</span> <span class="attr">data-type</span>=<span class="string">&quot;song&quot;</span>  <span class="attr">data-autoplay</span>=<span class="string">&quot;true&quot;</span> <span class="attr">data-lrcType</span>=<span class="string">&quot;-1&quot;</span>&gt;</span></span> <span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">列表模式：</span><br><span class="line">&#123;% meting &quot;2084546444&quot; &quot;netease&quot; &quot;playlist&quot; %&#125;</span><br><span class="line">演示文字，无意义。</span><br><span class="line">&#123;% meting &quot;2084546444&quot; &quot;netease&quot; &quot;playlist&quot; &quot;autoplay&quot; &quot;mutex:false&quot; &quot;listmaxheight:340px&quot; &quot;preload:none&quot; &quot;theme:#ad7a86&quot; %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h2 id="演示效果-2">演示效果</h2><p>  渲染效果中去除自动播放，以免影响网页阅读体验。</p><p>迷你模式：</p>    <div id="aplayer-lHWxSmvN" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="29009655" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-mini="true"    ></div><p>或者：</p><div class="aplayer no-destroy" data-id="29009655" data-server="netease" data-type="song" data-mini="true" data-lrcType="-1"> </div>单曲播放：    <div id="aplayer-zelJwNIx" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="29009655" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>或者：<div class="aplayer no-destroy" data-id="29009655" data-server="netease" data-type="song" data-lrcType="-1"> </div>列表模式：    <div id="aplayer-tSGdWSTd" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2084546444" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>演示文字，无意义。    <div id="aplayer-rRAXzZsk" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2084546444" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
       
       
       <categories>
@@ -2572,9 +2572,9 @@
             
             <tag> 数学 </tag>
             
-            <tag> 卡尔曼滤波 </tag>
-            
             <tag> matlab </tag>
+            
+            <tag> 卡尔曼滤波 </tag>
             
         </tags>
       
@@ -2630,9 +2630,9 @@
             
             <tag> 数学 </tag>
             
-            <tag> matlab </tag>
-            
             <tag> 协方差 </tag>
+            
+            <tag> matlab </tag>
             
         </tags>
       
